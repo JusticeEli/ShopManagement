@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/goodsCardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:background="@color/colorPrimaryLight"
+    android:orientation="vertical"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="@mipmap/background1"
+            android:padding="5dp">
+
+
+            <TextView
+                android:id="@+id/nameTxtView"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:text="white wash bar soap 200g"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:textColor="@color/colorWhite"
+                android:clickable="true"
+                android:id="@+id/outOfStockTxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Out Of Stock"
+                android:textSize="15sp"
+                android:layout_marginLeft="3dp"/>
+
+            <Button
+                android:id="@+id/buyBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:text="Buy"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:id="@+id/priceTxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="price"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

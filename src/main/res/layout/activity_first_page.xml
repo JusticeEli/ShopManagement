@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="20dp"
+    android:background="@color/colorPrimaryLight"
+    tools:context=".FirstPageActivity">
+
+    <RelativeLayout
+        android:background="@mipmap/background1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            android:background="@mipmap/background2">
+
+            <Button
+                android:id="@+id/goodsBtn"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:text="Goods"
+                android:background="@drawable/button"/>
+
+            <Button
+                android:id="@+id/chargesBtn"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Charges"
+                android:background="@drawable/button"/>
+
+            <Button
+                android:id="@+id/outOfStockBtn"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="OutOfStock"
+                android:textAllCaps="false"
+                android:background="@drawable/button"/>
+
+            <Button
+                android:id="@+id/addGoodsBtn"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Add Goods"
+                android:textAllCaps="false"
+                android:background="@drawable/button"
+                />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
