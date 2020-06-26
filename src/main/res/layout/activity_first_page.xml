@@ -20,7 +20,7 @@
             android:layout_height="match_parent"
             android:layout_centerHorizontal="true"
             android:orientation="vertical"
-            android:background="@mipmap/background2">
+            android:background="@android:color/darker_gray">
 
             <Button
                 android:id="@+id/goodsBtn"

@@ -2,7 +2,9 @@ package com.justice.shopmanagement.alldata;
 
 import android.os.Environment;
 
-import com.justice.shopmanagement.goods.Goods;
+import com.justice.shopmanagement.model.Goods;
+import com.justice.shopmanagement.model.GoodsBuy;
+import com.justice.shopmanagement.model.GoodsOutOfStock;
 import com.justice.shopmanagement.user.UserLoginData;
 
 import java.io.File;
@@ -16,26 +18,24 @@ import java.util.List;
 public class AllData {
 
     public static String path;
-
+    public static Goods goods = null;
     public static List<UserLoginData> userLoginDataList = new ArrayList<>();
     public static List<Goods> goodsList = new ArrayList<>();
-    public static List<Goods> outOfStockList = new ArrayList<>();
-    public static List<Goods> buyList = new ArrayList<>();
+    public static List<GoodsOutOfStock> outOfStockList = new ArrayList<>();
+    public static List<GoodsBuy> buyList = new ArrayList<>();
 
     public static void putDummyData() {
         userLoginDataList.add(new UserLoginData("e", "e"));
         userLoginDataList.add(new UserLoginData("j", "j"));
 
-        goodsList.add(new Goods("soko ugali 2kg","null","135"));
-        goodsList.add(new Goods("ndovu ugali 2kg","null","125"));
-        goodsList.add(new Goods("Blueband 500g","null","180"));
-        goodsList.add(new Goods("sunlight 500g","null","130"));
-        goodsList.add(new Goods("sunlight powder 40g","null","10"));
-        goodsList.add(new Goods("sun light bar soap 175g","null","45"));
-        goodsList.add(new Goods("sunlight bar soap 50g","null","15"));
-        goodsList.add(new Goods("white wash bar soap 200g","null","25"));
-
-
+        goodsList.add(new Goods("soko ugali 2kg", "null", "135"));
+        goodsList.add(new Goods("ndovu ugali 2kg", "null", "125"));
+        goodsList.add(new Goods("Blueband 500g", "null", "180"));
+        goodsList.add(new Goods("sunlight 500g", "null", "130"));
+        goodsList.add(new Goods("sunlight powder 40g", "null", "10"));
+        goodsList.add(new Goods("sun light bar soap 175g", "null", "45"));
+        goodsList.add(new Goods("sunlight bar soap 50g", "null", "15"));
+        goodsList.add(new Goods("white wash bar soap 200g", "null", "25"));
 
 
     }
@@ -52,7 +52,7 @@ public class AllData {
         allData.readUserLoginDataList();
         allData.readGoodsList();
         allData.readOutOfStockList();
-      //  allData.readBuyList();
+        //  allData.readBuyList();
 
 
     }
@@ -62,7 +62,7 @@ public class AllData {
         try {
             FileInputStream fileInputStream = new FileInputStream(path + "/buy.bin");
             ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
-            AllData.buyList = (ArrayList<Goods>) objectInputStream.readObject();
+            AllData.buyList = (ArrayList<GoodsBuy>) objectInputStream.readObject();
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -74,7 +74,7 @@ public class AllData {
         try {
             FileInputStream fileInputStream = new FileInputStream(path + "/out_of_stock.bin");
             ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
-            AllData.outOfStockList = (ArrayList<Goods>) objectInputStream.readObject();
+            AllData.outOfStockList = (ArrayList<GoodsOutOfStock>) objectInputStream.readObject();
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -111,7 +111,7 @@ public class AllData {
         allData.writeUserLoginDataList();
         allData.writeGoodsList();
         allData.writeOutOfStockList();
-      //  allData.writeBuyList();
+        //  allData.writeBuyList();
 
 
     }

@@ -5,21 +5,22 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
+import android.widget.Filter;
+import android.widget.Filterable;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.justice.shopmanagement.R;
-import com.justice.shopmanagement.alldata.AllData;
-import com.justice.shopmanagement.goods.Goods;
+import com.justice.shopmanagement.model.GoodsOutOfStock;
 
+import java.util.ArrayList;
 import java.util.List;
 
-public class OutOfStockRecyclerAdapter extends RecyclerView.Adapter<OutOfStockRecyclerAdapter.ViewHolder> {
-    private Context context;
-    private List<Goods> list;
+public class OutOfStockRecyclerAdapter extends RecyclerView.Adapter<OutOfStockRecyclerAdapter.ViewHolder> implements Filterable {
+    private OutOfStockActivity context;
+    private List<GoodsOutOfStock> list=new ArrayList<>();
 
     @NonNull
     @Override
@@ -36,11 +37,7 @@ public class OutOfStockRecyclerAdapter extends RecyclerView.Adapter<OutOfStockRe
         holder.addToStockBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-              //  AllData.readAllDataFromFiles();
-                AllData.outOfStockList.remove(list.get(position));
-                notifyDataSetChanged();
-                AllData.writeAllDataToFiles();
-
+              context.goodsViewModel.delete(list.get(position));
             }
         });
     }
@@ -49,6 +46,36 @@ public class OutOfStockRecyclerAdapter extends RecyclerView.Adapter<OutOfStockRe
     public int getItemCount() {
         return list.size();
     }
+
+    @Override
+    public Filter getFilter() {
+        return filter;
+    }
+
+    Filter filter = new Filter() {
+        @Override
+        protected FilterResults performFiltering(CharSequence constraint) {
+            List<GoodsOutOfStock> resultList = new ArrayList<>();
+            for (GoodsOutOfStock goods : context.goodsViewModel.getAllGoods().getValue()) {
+                if (goods.getName().toLowerCase().contains(constraint.toString().toLowerCase())) {
+                    resultList.add(goods);
+                }
+            }
+            FilterResults results = new FilterResults();
+            if (constraint.toString().trim().isEmpty()) {
+                results.values = context.goodsViewModel.getAllGoods().getValue();
+            } else {
+                results.values = resultList;
+            }
+            return results;
+        }
+
+        @Override
+        protected void publishResults(CharSequence constraint, FilterResults results) {
+            setList((List) results.values);
+        }
+    };
+
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         private TextView nameTxtView;
@@ -61,12 +88,12 @@ public class OutOfStockRecyclerAdapter extends RecyclerView.Adapter<OutOfStockRe
         }
     }
 
-    public void setList(List<Goods> list) {
+    public void setList(List<GoodsOutOfStock> list) {
         this.list = list;
         notifyDataSetChanged();
     }
 
     public OutOfStockRecyclerAdapter(Context context) {
-        this.context = context;
+        this.context = (OutOfStockActivity) context;
     }
 }

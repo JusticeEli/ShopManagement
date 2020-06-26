@@ -5,7 +5,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
+import android.widget.Filter;
+import android.widget.Filterable;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -13,14 +14,16 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.justice.shopmanagement.R;
 import com.justice.shopmanagement.alldata.AllData;
-import com.justice.shopmanagement.goods.Goods;
+import com.justice.shopmanagement.model.Goods;
+import com.justice.shopmanagement.model.GoodsBuy;
 
+import java.util.ArrayList;
 import java.util.List;
 
-public class ChargesActivityRecyclerAdapter extends RecyclerView.Adapter<ChargesActivityRecyclerAdapter.ViewHolder> {
-    private Context context;
-    private List<Goods> list;
-    private ChargesActivity chargesActivity ;
+public class ChargesActivityRecyclerAdapter extends RecyclerView.Adapter<ChargesActivityRecyclerAdapter.ViewHolder> implements Filterable {
+    private ChargesActivity context;
+    private List<GoodsBuy> list = new ArrayList<>();
+    private ChargesActivity chargesActivity;
 
     @NonNull
     @Override
@@ -34,7 +37,7 @@ public class ChargesActivityRecyclerAdapter extends RecyclerView.Adapter<Charges
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, final int position) {
         holder.nameTxtView.setText(list.get(position).getName());
-        holder.priceTxtView.setText("$ "+list.get(position).getPrice());
+        holder.priceTxtView.setText("$ " + list.get(position).getPrice());
         holder.removeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -43,9 +46,7 @@ public class ChargesActivityRecyclerAdapter extends RecyclerView.Adapter<Charges
             }
 
             private void removeBtnTapped() {
-                AllData.buyList.remove(list.get(position));
-                notifyDataSetChanged();
-                chargesActivity.calculateTotalAmount();
+                context.goodsViewModel.delete(list.get(position));
             }
         });
 
@@ -55,6 +56,36 @@ public class ChargesActivityRecyclerAdapter extends RecyclerView.Adapter<Charges
     public int getItemCount() {
         return list.size();
     }
+
+    @Override
+    public Filter getFilter() {
+        return filter;
+    }
+
+    Filter filter = new Filter() {
+        @Override
+        protected FilterResults performFiltering(CharSequence constraint) {
+            List<GoodsBuy> resultList = new ArrayList<>();
+            for (GoodsBuy goods : context.goodsViewModel.getAllGoods().getValue()) {
+                if (goods.getName().toLowerCase().contains(constraint.toString().toLowerCase())) {
+                    resultList.add(goods);
+                }
+            }
+            FilterResults results = new FilterResults();
+            if (constraint.toString().trim().isEmpty()) {
+                results.values = context.goodsViewModel.getAllGoods().getValue();
+            } else {
+                results.values = resultList;
+            }
+            return results;
+        }
+
+        @Override
+        protected void publishResults(CharSequence constraint, FilterResults results) {
+            setList((List) results.values);
+        }
+    };
+
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         private TextView nameTxtView, priceTxtView;
@@ -71,12 +102,12 @@ public class ChargesActivityRecyclerAdapter extends RecyclerView.Adapter<Charges
         }
     }
 
-    public ChargesActivityRecyclerAdapter(ChargesActivity chargesActivity,Context context) {
-        this.chargesActivity=chargesActivity;
-        this.context = context;
+    public ChargesActivityRecyclerAdapter(ChargesActivity chargesActivity, Context context) {
+        this.chargesActivity = chargesActivity;
+        this.context = (ChargesActivity) context;
     }
 
-    public void setList(List<Goods> list) {
+    public void setList(List<GoodsBuy> list) {
         this.list = list;
         notifyDataSetChanged();
     }

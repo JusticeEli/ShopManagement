@@ -4,32 +4,57 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
+import android.widget.Filter;
+import android.widget.Filterable;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
+import androidx.lifecycle.ViewModelProviders;
+import androidx.recyclerview.widget.DiffUtil;
+import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.justice.shopmanagement.EditGoodsActivity;
 import com.justice.shopmanagement.R;
 import com.justice.shopmanagement.alldata.AllData;
+import com.justice.shopmanagement.model.Goods;
+import com.justice.shopmanagement.model.GoodsBuy;
+import com.justice.shopmanagement.model.GoodsOutOfStock;
+import com.justice.shopmanagement.viewmodel.GoodBuyViewModel;
+import com.justice.shopmanagement.viewmodel.GoodsOutOfStockViewModel;
+import com.justice.shopmanagement.viewmodel.GoodsViewModel;
 
+import java.util.ArrayList;
 import java.util.List;
 
-public class GoodsActivityRecyclerAdapter extends RecyclerView.Adapter<GoodsActivityRecyclerAdapter.ViewHolder> {
-    private List<Goods> list;
-    private Context context;
+public class GoodsActivityRecyclerAdapter extends ListAdapter<Goods, GoodsActivityRecyclerAdapter.ViewHolder> implements Filterable {
+    private GoodsActivity context;
 
     public GoodsActivityRecyclerAdapter(Context context) {
-        this.context = context;
+        super(DIFF_CALLBACK);
+
+        this.context = (GoodsActivity) context;
     }
+
+
+    private static final DiffUtil.ItemCallback<Goods> DIFF_CALLBACK = new DiffUtil.ItemCallback<Goods>() {
+        @Override
+        public boolean areItemsTheSame(Goods oldItem, Goods newItem) {
+            return oldItem.getId() == newItem.getId();
+        }
+
+        @Override
+        public boolean areContentsTheSame(Goods oldItem, Goods newItem) {
+            return oldItem.getName().equals(newItem.getName()) && oldItem.getPrice().equals(newItem.getPrice());
+        }
+    };
+
 
     @NonNull
     @Override
@@ -42,37 +67,31 @@ public class GoodsActivityRecyclerAdapter extends RecyclerView.Adapter<GoodsActi
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, final int position) {
-        holder.nameTxtView.setText(list.get(position).getName());
-        holder.priceTxtView.setText("$ " + list.get(position).getPrice());
+        holder.nameTxtView.setText(getItem(position).getName());
+        holder.priceTxtView.setText("$ " + getItem(position).getPrice());
         holder.buyBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (AllData.buyList.add(list.get(position))) {
-                    Toast.makeText(context, "bought", Toast.LENGTH_SHORT).show();
+                GoodBuyViewModel goodsViewModel = ViewModelProviders.of(context).get(GoodBuyViewModel.class);
+                Goods goods = getItem(position);
+                goodsViewModel.insert(new GoodsBuy(goods.getName(), goods.getImage(), goods.getPrice()));
+                Toast.makeText(context, "Bought", Toast.LENGTH_SHORT).show();
 
-
-                }
             }
         });
         holder.outOfStockTxtView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                boolean success = outOfStockClicked();
+                outOfStockClicked();
+                Toast.makeText(context, "Added To Out Of Stock", Toast.LENGTH_SHORT).show();
 
-                if (success) {
-                    Toast.makeText(context, "Added To Out Of Stock", Toast.LENGTH_SHORT).show();
-                }
             }
 
-            private boolean outOfStockClicked() {
-                boolean success = false;
+            private void outOfStockClicked() {
+                GoodsOutOfStockViewModel goodsViewModel = ViewModelProviders.of(context).get(GoodsOutOfStockViewModel.class);
+                Goods goods = new Goods(getItem(position).getName(), getItem(position).getImage(), getItem(position).getPrice());
+                goodsViewModel.insert(new GoodsOutOfStock(goods.getName(), goods.getImage(), goods.getPrice()));
 
-                if (!AllData.outOfStockList.contains(list.get(position))) {
-                    success = AllData.outOfStockList.add(list.get(position));
-                    AllData.writeAllDataToFiles();
-                    return success;
-                }
-                return success;
             }
         });
 
@@ -88,19 +107,17 @@ public class GoodsActivityRecyclerAdapter extends RecyclerView.Adapter<GoodsActi
                 AlertDialog.Builder builder = new AlertDialog.Builder(context).setTitle("Confirm").setNegativeButton("Delete !!", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        Goods goods = AllData.goodsList.remove(position);
-                        notifyDataSetChanged();
-                        AllData.writeAllDataToFiles();
-
-                        Toast.makeText(context, goods.getName() + " removed", Toast.LENGTH_SHORT).show();
+                        context.goodsViewModel.delete(getItem(position));
+                        Toast.makeText(context, getItem(position).getName() + " removed", Toast.LENGTH_SHORT).show();
 
                     }
                 }).setPositiveButton("Edit", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         Intent intent = new Intent(context, EditGoodsActivity.class);
-                        intent.putExtra("position", position);
+                        AllData.goods = getItem(position);
                         context.startActivity(intent);
+                        notifyItemChanged(position);
 
                     }
                 });
@@ -110,10 +127,39 @@ public class GoodsActivityRecyclerAdapter extends RecyclerView.Adapter<GoodsActi
 
     }
 
-    @Override
-    public int getItemCount() {
-        return list.size();
+
+    public Goods getNoteAt(int adapterPosition) {
+        return getItem(adapterPosition);
     }
+
+    @Override
+    public Filter getFilter() {
+        return filter;
+    }
+
+    Filter filter = new Filter() {
+        @Override
+        protected FilterResults performFiltering(CharSequence constraint) {
+            List<Goods> resultList = new ArrayList<>();
+            for (Goods goods : context.goodsViewModel.getAllGoods().getValue()) {
+                if (goods.getName().toLowerCase().contains(constraint.toString().toLowerCase())) {
+                    resultList.add(goods);
+                }
+            }
+            FilterResults results = new FilterResults();
+            if (constraint.toString().trim().isEmpty()){
+                results.values=context.goodsViewModel.getAllGoods().getValue();
+            }else {
+                results.values = resultList;
+            }
+             return results;
+        }
+
+        @Override
+        protected void publishResults(CharSequence constraint, FilterResults results) {
+            submitList((List) results.values);
+        }
+    };
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
@@ -132,8 +178,5 @@ public class GoodsActivityRecyclerAdapter extends RecyclerView.Adapter<GoodsActi
         }
     }
 
-    public void setList(List<Goods> list) {
-        this.list = list;
-        notifyDataSetChanged();
-    }
+
 }

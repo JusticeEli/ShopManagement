@@ -9,5 +9,11 @@
         android:id="@+id/homeMenu"
         android:title="Home"
         app:showAsAction="ifRoom" />
-
+    <item
+        android:icon="@drawable/ic_search"
+        android:title="search"
+        android:id="@+id/searchItem"
+        app:showAsAction="collapseActionView|ifRoom"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        />
 </menu>

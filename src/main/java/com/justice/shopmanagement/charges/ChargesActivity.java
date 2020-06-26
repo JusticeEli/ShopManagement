@@ -1,11 +1,16 @@
 package com.justice.shopmanagement.charges;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SearchView;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProviders;
+import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -21,20 +26,26 @@ import com.google.android.material.navigation.NavigationView;
 import com.justice.shopmanagement.FirstPageActivity;
 import com.justice.shopmanagement.R;
 import com.justice.shopmanagement.alldata.AllData;
-import com.justice.shopmanagement.goods.Goods;
+import com.justice.shopmanagement.goods.GoodsActivityRecyclerAdapter;
+import com.justice.shopmanagement.model.Goods;
 import com.justice.shopmanagement.goods.GoodsActivity;
+import com.justice.shopmanagement.model.GoodsBuy;
+import com.justice.shopmanagement.viewmodel.GoodBuyViewModel;
+import com.justice.shopmanagement.viewmodel.GoodsViewModel;
+
+import java.util.List;
 
 public class ChargesActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private TextView totalAmountTxtView;
     private RecyclerView recyclerView;
-    private ChargesActivityRecyclerAdapter chargesActivityRecyclerAdapter;
+    private ChargesActivityRecyclerAdapter adapter;
 
     //////////////////DRAWER LAYOUT////////////////////////
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
     private ActionBarDrawerToggle actionBarDrawerToggle;
 
-
+    public GoodBuyViewModel goodsViewModel;
 
 
     @Override
@@ -42,6 +53,7 @@ public class ChargesActivity extends AppCompatActivity implements NavigationView
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_charges);
         initWidgets();
+        setUpRecyclerView();
 
         if (!AllData.buyList.isEmpty()) {
             calculateTotalAmount();
@@ -49,21 +61,56 @@ public class ChargesActivity extends AppCompatActivity implements NavigationView
         initNavigationDrawer();
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-        chargesActivityRecyclerAdapter.notifyDataSetChanged();
+    private void setUpRecyclerView() {
+
+
+        RecyclerView recyclerView = findViewById(R.id.recyclerView);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        recyclerView.setHasFixedSize(true);
+
+        adapter = new ChargesActivityRecyclerAdapter(this, this);
+        recyclerView.setAdapter(adapter);
+
+        goodsViewModel = ViewModelProviders.of(this).get(GoodBuyViewModel.class);
+        goodsViewModel.getAllGoods().observe(this, new Observer<List<GoodsBuy>>() {
+            @Override
+            public void onChanged(@Nullable List<GoodsBuy> notes) {
+                AllData.buyList = notes;
+                adapter.setList(notes);
+                calculateTotalAmount();
+            }
+        });
+
+
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_charges, menu);
+        MenuItem menuItem = menu.findItem(R.id.searchItem);
+        androidx.appcompat.widget.SearchView searchView = (SearchView) menuItem.getActionView();
+        searchView.setOnQueryTextListener(listener);
         return super.onCreateOptionsMenu(menu);
     }
 
+    SearchView.OnQueryTextListener listener = new androidx.appcompat.widget.SearchView.OnQueryTextListener() {
+        @Override
+        public boolean onQueryTextSubmit(String query) {
+            return false;
+        }
+
+        @Override
+        public boolean onQueryTextChange(String newText) {
+            adapter.getFilter().filter(newText);
+
+            return false;
+        }
+    };
+
     public void calculateTotalAmount() {
         int total = 0;
-        for (Goods goods : AllData.buyList) {
+        for (GoodsBuy goods : AllData.buyList) {
 
             total += Integer.parseInt(goods.getPrice());
         }
@@ -75,10 +122,6 @@ public class ChargesActivity extends AppCompatActivity implements NavigationView
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         totalAmountTxtView = findViewById(R.id.totalAmountTxtView);
         recyclerView = findViewById(R.id.recyclerView);
-        chargesActivityRecyclerAdapter = new ChargesActivityRecyclerAdapter(this, this);
-        recyclerView.setAdapter(chargesActivityRecyclerAdapter);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        chargesActivityRecyclerAdapter.setList(AllData.buyList);
     }
 
 
@@ -94,8 +137,7 @@ public class ChargesActivity extends AppCompatActivity implements NavigationView
                 super.onBackPressed();
                 break;
             case R.id.clearMenu:
-                AllData.buyList.clear();
-                chargesActivityRecyclerAdapter.notifyDataSetChanged();
+                goodsViewModel.deleteAllGoods();
                 totalAmountTxtView.setText("$ 00");
 
 
@@ -104,9 +146,10 @@ public class ChargesActivity extends AppCompatActivity implements NavigationView
         }
         return true;
     }
+
     ////////////////////////NAVIGATION DRAWER/////////////////////////////////////////////
     private void initNavigationDrawer() {
-        DrawerLayout drawerLayout=findViewById(R.id.drawer);
+        DrawerLayout drawerLayout = findViewById(R.id.drawer);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         drawerLayout = findViewById(R.id.drawer);
         navigationView = findViewById(R.id.navigationView);
@@ -117,23 +160,22 @@ public class ChargesActivity extends AppCompatActivity implements NavigationView
     }
 
 
-
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
         switch (menuItem.getItemId()) {
 
             case R.id.homeMenu:
-                Intent intent=new Intent(this, FirstPageActivity.class);
+                Intent intent = new Intent(this, FirstPageActivity.class);
                 startActivity(intent);
                 finish();
                 break;
             case R.id.goodsMenu:
-                Intent intent1=new Intent(this, GoodsActivity.class);
+                Intent intent1 = new Intent(this, GoodsActivity.class);
                 startActivity(intent1);
                 break;
 
             case R.id.exitMenu:
-                AlertDialog.Builder builder=new AlertDialog.Builder(this).setTitle("Are you Sure!!").setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                AlertDialog.Builder builder = new AlertDialog.Builder(this).setTitle("Are you Sure!!").setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         finish();
@@ -148,7 +190,7 @@ public class ChargesActivity extends AppCompatActivity implements NavigationView
                 builder.show();
                 break;
         }
-        DrawerLayout drawerLayout=findViewById(R.id.drawer);
+        DrawerLayout drawerLayout = findViewById(R.id.drawer);
 
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;

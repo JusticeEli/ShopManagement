@@ -2,6 +2,7 @@ package com.justice.shopmanagement;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.ViewModelProviders;
 
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -10,8 +11,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.justice.shopmanagement.alldata.AllData;
-import com.justice.shopmanagement.goods.Goods;
+import com.justice.shopmanagement.model.Goods;
+import com.justice.shopmanagement.viewmodel.GoodsViewModel;
 
 public class AddGoodsActivity extends AppCompatActivity {
     private EditText nameEdtTxt, priceEdtTxt;
@@ -21,6 +22,7 @@ public class AddGoodsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_goods);
+        setTitle("Add Goods");
         initWidgets();
         setOnClickListeners();
     }
@@ -29,21 +31,19 @@ public class AddGoodsActivity extends AppCompatActivity {
         submitBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Boolean success = false;
-                if (nameEdtTxt.getText().toString().isEmpty()||priceEdtTxt.getText().toString().isEmpty()){
+                if (nameEdtTxt.getText().toString().isEmpty() || priceEdtTxt.getText().toString().isEmpty()) {
                     Toast.makeText(AddGoodsActivity.this, "Please Fill All Fields..!!", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                Goods goods = new Goods();
+                Goods goods = new Goods("", "", "");
                 goods.setName(nameEdtTxt.getText().toString());
                 goods.setPrice(priceEdtTxt.getText().toString());
 
+                GoodsViewModel goodsViewModel = ViewModelProviders.of(AddGoodsActivity.this).get(GoodsViewModel.class);
+                goodsViewModel.insert(goods);
 
-                success = AllData.goodsList.add(goods);
-                if (success) {
-                    AllData.writeAllDataToFiles();
-                    Toast.makeText(AddGoodsActivity.this, "Added", Toast.LENGTH_SHORT).show();
-                }
+                Toast.makeText(AddGoodsActivity.this, "Added", Toast.LENGTH_SHORT).show();
+
                 resetEdtTxt();
             }
 

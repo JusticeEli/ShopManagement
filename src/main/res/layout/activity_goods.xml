@@ -7,53 +7,31 @@
     android:layout_height="match_parent">
 
 
-        <RelativeLayout
-            android:id="@+id/headerRelLayout"
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/headerRelLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/background1">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@mipmap/background1">
+            android:layout_below="@+id/searchEdtTxt"
+            android:background="@android:color/darker_gray"
+            android:padding="10dp" />
 
-            <TextView
-                android:id="@+id/goodsTxtView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="15dp"
-                android:text="Goods"
-                android:textColor="@color/colorWhite"
-                android:textSize="20sp"
-                android:textStyle="bold|italic" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_add" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-            <EditText
-                android:id="@+id/searchEdtTxt"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/goodsTxtView"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="20dp"
-                android:gravity="center"
-                android:hint="Search"
-                android:inputType="text" />
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/recyclerView"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_below="@+id/searchEdtTxt"
-                android:background="@color/colorPrimaryLight"
-                android:padding="10dp"/>
-        </RelativeLayout>
-
-    <com.google.android.material.navigation.NavigationView
-        android:id="@+id/navigationView"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        app:itemIconTint="@color/colorPrimary"
-        android:background="@mipmap/background7"
-        app:menu="@menu/activity_goods_sidebar"
-
-        />
+    <include layout="@layout/side_bar" />
 
 </androidx.drawerlayout.widget.DrawerLayout>

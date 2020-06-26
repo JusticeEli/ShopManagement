@@ -15,10 +15,12 @@
         android:name=".alldata.ApplicationClass">
         <activity android:name=".EditGoodsActivity"></activity>
         <activity android:name=".AddGoodsActivity" />
-        <activity android:name=".out_of_stock.OutOfStockActivity" />
-        <activity android:name=".charges.ChargesActivity" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".goods.GoodsActivity" />
+        <activity android:name=".out_of_stock.OutOfStockActivity"
+            android:launchMode="singleTop"/>
+        <activity android:name=".charges.ChargesActivity"
+            android:launchMode="singleTop"/>
+        <activity android:name=".goods.GoodsActivity"
+            android:launchMode="singleTop"/>
         <activity android:name=".FirstPageActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

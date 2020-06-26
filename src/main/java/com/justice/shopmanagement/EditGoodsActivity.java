@@ -2,6 +2,7 @@ package com.justice.shopmanagement;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.ViewModelProviders;
 
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -11,25 +12,29 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.justice.shopmanagement.alldata.AllData;
+import com.justice.shopmanagement.model.Goods;
+import com.justice.shopmanagement.viewmodel.GoodsViewModel;
 
 public class EditGoodsActivity extends AppCompatActivity {
     private EditText nameEdtTxt, priceEdtTxt;
     private Button submitBtn;
     private int position;
+    private Goods goods;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_goods);
-        position = getIntent().getIntExtra("position", 0);
+        goods = AllData.goods;
+        setTitle("Edit Goods");
         initWidgets();
         initValues();
         setOnClickListeners();
     }
 
     private void initValues() {
-        nameEdtTxt.setText(AllData.goodsList.get(position).getName());
-        priceEdtTxt.setText(AllData.goodsList.get(position).getPrice());
+        nameEdtTxt.setText(goods.getName());
+        priceEdtTxt.setText(goods.getPrice());
     }
 
     private void setOnClickListeners() {
@@ -40,10 +45,11 @@ public class EditGoodsActivity extends AppCompatActivity {
                     Toast.makeText(EditGoodsActivity.this, "Please Fill All Fields..!!", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                AllData.goodsList.get(position).setName(nameEdtTxt.getText().toString());
-                AllData.goodsList.get(position).setPrice(priceEdtTxt.getText().toString());
+                goods.setName(nameEdtTxt.getText().toString());
+                goods.setPrice(priceEdtTxt.getText().toString());
+                GoodsViewModel goodsViewModel = ViewModelProviders.of(EditGoodsActivity.this).get(GoodsViewModel.class);
+                goodsViewModel.update(goods);
                 Toast.makeText(EditGoodsActivity.this, "Edit Success", Toast.LENGTH_SHORT).show();
-                AllData.writeAllDataToFiles();
                 EditGoodsActivity.super.onBackPressed();
 
             }

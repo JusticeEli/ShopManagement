@@ -1,23 +1,41 @@
-package com.justice.shopmanagement.goods;
+package com.justice.shopmanagement.model;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
 
 import java.io.Serializable;
 import java.util.Objects;
 
-public class Goods implements Serializable,Comparable<Goods>{
+@Entity(tableName = "goods_buy")
+public class GoodsBuy {
+    @PrimaryKey(autoGenerate = true)
+    private int id;
     private String name;
     private String image;
     private String price;
 
-    public Goods(String name, String image, String price) {
+
+
+    public GoodsBuy(String name, String image, String price) {
         this.name = name;
         this.image = image;
         this.price = price;
     }
 
-    public Goods() {
 
+
+
+
+    public void setId(int id) {
+        this.id = id;
     }
 
+    public int getId() {
+        return id;
+    }
 
     public String getImage() {
         return image;
@@ -44,8 +62,6 @@ public class Goods implements Serializable,Comparable<Goods>{
     }
 
 
-    @Override
-    public int compareTo(Goods goods) {
-        return name.compareTo(goods.name);
-    }
+
+
 }
