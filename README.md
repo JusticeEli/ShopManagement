@@ -17,12 +17,3 @@ data online it create a binary file and store the goods data there.
 <img src="https://user-images.githubusercontent.com/63531125/107875442-e4741d80-6ed0-11eb-97fd-c802fb6c0fb7.jpeg" width =260/>
 
 
-![WhatsApp Image 2020-11-07 at 2 18 08 PM(1)](https://user-images.githubusercontent.com/63531125/107875433-e0480000-6ed0-11eb-97a3-c6d2d0154d40.jpeg)
-![WhatsApp Image 2020-11-07 at 2 18 08 PM(2)](https://user-images.githubusercontent.com/63531125/107875434-e1792d00-6ed0-11eb-9024-25755d4760f1.jpeg)
-![WhatsApp Image 2020-11-07 at 2 18 08 PM(3)](https://user-images.githubusercontent.com/63531125/107875435-e211c380-6ed0-11eb-84a5-d405d77b88d4.jpeg)
-![WhatsApp Image 2020-11-07 at 2 18 08 PM](https://user-images.githubusercontent.com/63531125/107875436-e2aa5a00-6ed0-11eb-9b6e-31bc80671edb.jpeg)
-
-![WhatsApp Image 2020-11-07 at 2 24 20 PM](https://user-images.githubusercontent.com/63531125/107875437-e2aa5a00-6ed0-11eb-8f7e-1c94bd81aba5.jpeg)
-![WhatsApp Image 2020-11-07 at 2 18 07 PM(1)](https://user-images.githubusercontent.com/63531125/107875439-e342f080-6ed0-11eb-846c-24cb08b34e3b.jpeg)
-![WhatsApp Image 2020-11-07 at 2 18 07 PM(2)](https://user-images.githubusercontent.com/63531125/107875440-e3db8700-6ed0-11eb-817d-43a01d360155.jpeg)
-![WhatsApp Image 2020-11-07 at 2 18 07 PM](https://user-images.githubusercontent.com/63531125/107875442-e4741d80-6ed0-11eb-97fd-c802fb6c0fb7.jpeg)
