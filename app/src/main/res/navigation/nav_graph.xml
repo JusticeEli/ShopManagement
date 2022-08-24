@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/firstPageActivity">
+    <fragment
+        android:id="@+id/firstPageActivity"
+        android:name="com.justice.shopmanagement.ui.FirstPageActivity"
+        android:label="FirstPageActivity" >
+        <action
+            android:id="@+id/action_firstPageActivity_to_goodsFragment"
+            app:destination="@id/goodsFragment" />
+        <action
+            android:id="@+id/action_firstPageActivity_to_addGoodsFragment"
+            app:destination="@id/addGoodsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/goodsFragment"
+        android:name="com.justice.shopmanagement.ui.goods.GoodsFragment"
+        android:label="GoodsFragment" >
+        <action
+            android:id="@+id/action_goodsFragment_to_addGoodsFragment"
+            app:destination="@id/addGoodsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addGoodsFragment"
+        android:name="com.justice.shopmanagement.ui.goods.AddGoodsFragment"
+        android:label="AddGoodsFragment" />
+    <fragment
+        android:id="@+id/editGoodsActivity"
+        android:name="com.justice.shopmanagement.ui.goods.EditGoodsActivity"
+        android:label="EditGoodsActivity" >
+        <argument
+            android:name="good"
+            app:argType="com.justice.shopmanagement.model.Goods" />
+    </fragment>
+</navigation>

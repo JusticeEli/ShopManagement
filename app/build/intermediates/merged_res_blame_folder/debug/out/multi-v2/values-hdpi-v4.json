@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/justice/.gradle/caches/transforms-3/1615b0985eb43f60db4f9d4d58b08fd9/transformed/appcompat-1.1.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

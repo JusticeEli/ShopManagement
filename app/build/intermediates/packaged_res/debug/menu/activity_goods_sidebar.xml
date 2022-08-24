@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/chargesMenu"
+        android:title="Charges"
+        />
+    <item
+        android:id="@+id/outOfStockMenu"
+        android:title="Out Of Stock" />
+    <item
+        android:id="@+id/addGoodsMenu"
+        android:title="Add Goods " />
+
+    <item
+        android:id="@+id/aboutUsMenu"
+        android:title="About Us" />
+    <item
+        android:id="@+id/homeMenu"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/exitMenu"
+        android:title="Exit"
+        android:icon="@drawable/ic_exit_97636"/>
+
+
+</menu>

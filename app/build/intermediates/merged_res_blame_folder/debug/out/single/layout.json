@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_out_of_stock.xml",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/layout/activity_out_of_stock.xml"
+    },
+    {
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_add_goods.xml",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/layout/fragment_add_goods.xml"
+    },
+    {
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/sidebar_charges.xml",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/layout/sidebar_charges.xml"
+    },
+    {
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_out_of_stock.xml",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/layout/item_out_of_stock.xml"
+    },
+    {
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_goods.xml",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/layout/fragment_goods.xml"
+    },
+    {
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_goods.xml",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/layout/item_goods.xml"
+    },
+    {
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/side_bar.xml",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/layout/side_bar.xml"
+    },
+    {
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_edit_goods.xml",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/layout/fragment_edit_goods.xml"
+    },
+    {
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_charges.xml",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/layout/activity_charges.xml"
+    },
+    {
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_charges.xml",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/layout/item_charges.xml"
+    },
+    {
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_first_page.xml",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/layout/fragment_first_page.xml"
+    }
+]

@@ -1,0 +1,290 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:2:1-35:12
+MERGED from [androidx.databinding:viewbinding:7.0.3] /home/justice/.gradle/caches/transforms-3/b96c972613dfa462bc39dea0ab3782ff/transformed/jetified-viewbinding-7.0.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /home/justice/.gradle/caches/transforms-3/fd3fe8f6123eba96cc32857be86479c5/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.0-alpha04] /home/justice/.gradle/caches/transforms-3/88d3ff12a86aa6cdd5357d424d004d80/transformed/jetified-fragment-ktx-1.3.0-alpha04/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /home/justice/.gradle/caches/transforms-3/cb6a6db9f12b279520800cd4485ec7a7/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /home/justice/.gradle/caches/transforms-3/cc8af6d9344cf28666acab000e06a7b9/transformed/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.2.0-alpha04] /home/justice/.gradle/caches/transforms-3/156e7f529b74be9c561683bbd0c9d838/transformed/jetified-activity-ktx-1.2.0-alpha04/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0-alpha02] /home/justice/.gradle/caches/transforms-3/2e3edf0f936d3605bcaedefe465e423a/transformed/jetified-lifecycle-viewmodel-ktx-2.3.0-alpha02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0-alpha01] /home/justice/.gradle/caches/transforms-3/71301a2e44e1a0999a0011515e20cf4d/transformed/jetified-lifecycle-runtime-ktx-2.3.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /home/justice/.gradle/caches/transforms-3/5f155862dd3ad46d8bc74d615684a4d4/transformed/navigation-common-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.1.0] /home/justice/.gradle/caches/transforms-3/ec88a4fb709dc310112b37de02f13bde/transformed/jetified-core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.0-alpha02] /home/justice/.gradle/caches/transforms-3/23991c162e9db0eeedfd24a80e6d6c68/transformed/jetified-lifecycle-livedata-core-ktx-2.3.0-alpha02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/justice/.gradle/caches/transforms-3/ddce29a6d36b436eb42d519f778f062f/transformed/navigation-ui-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.1.0] /home/justice/.gradle/caches/transforms-3/8d907af5f8f0be1e749f65c7960d4e42/transformed/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/justice/.gradle/caches/transforms-3/1615b0985eb43f60db4f9d4d58b08fd9/transformed/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/justice/.gradle/caches/transforms-3/e34fa100875ba00a451d152a37b1936a/transformed/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/justice/.gradle/caches/transforms-3/989c7c2817627b994857d168806b175b/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/justice/.gradle/caches/transforms-3/974974e00cb73636be536f0f58950636/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/justice/.gradle/caches/transforms-3/cd002fa6af28a5de3dc447c0adeaa51d/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/justice/.gradle/caches/transforms-3/ff9a7dc7ba972f7e61f01fc898327f5b/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha02] /home/justice/.gradle/caches/transforms-3/7422edde993ead32a4c7a2572143e07e/transformed/jetified-hilt-lifecycle-viewmodel-1.0.0-alpha02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.hilt:hilt-common:1.0.0-alpha02] /home/justice/.gradle/caches/transforms-3/515389f53e27c8a455ece831b02f1e3f/transformed/jetified-hilt-common-1.0.0-alpha02/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:hilt-android:2.28.3-alpha] /home/justice/.gradle/caches/transforms-3/c12d9a41d55276ca377df4c6a65426cd/transformed/jetified-hilt-android-2.28.3-alpha/AndroidManifest.xml:16:1-19:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /home/justice/.gradle/caches/transforms-3/03f08e71f85f62e2af58fd0a22bea157/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.0-alpha04] /home/justice/.gradle/caches/transforms-3/0cb50d0cf9aafdbeb9d99cb576840d2c/transformed/fragment-1.3.0-alpha04/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /home/justice/.gradle/caches/transforms-3/e2b20906a36c71a5d2366057135126be/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.0-alpha04] /home/justice/.gradle/caches/transforms-3/8060a4a2c8a19d3cfac9677aa53444e5/transformed/jetified-activity-1.2.0-alpha04/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0-alpha02] /home/justice/.gradle/caches/transforms-3/4260f209545244f9eb733fef42d3b76a/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.0-alpha02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /home/justice/.gradle/caches/transforms-3/f4066b4dc3c88dc4da1db65a36b8bbb7/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0-alpha02] /home/justice/.gradle/caches/transforms-3/416665a01e75d34c09ba910eec54f047/transformed/lifecycle-viewmodel-2.3.0-alpha02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/justice/.gradle/caches/transforms-3/c6cc80f227fd44fee808a4e9335ce6fc/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.2.5] /home/justice/.gradle/caches/transforms-3/568d24c3c1170ed4847ea5f0e1448bb0/transformed/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/justice/.gradle/caches/transforms-3/75936cac93d2f83c3325159005ea5e73/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/justice/.gradle/caches/transforms-3/fd74fd230cf6179efc64d748d72aed51/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0-alpha02] /home/justice/.gradle/caches/transforms-3/d0ae25433f62d5be842584258593b77d/transformed/lifecycle-livedata-core-2.3.0-alpha02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/justice/.gradle/caches/transforms-3/261c207cbdd2339dd31d8038a3a15227/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/justice/.gradle/caches/transforms-3/b1b9ea09237f3f428b567a479a7b1844/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/justice/.gradle/caches/transforms-3/3a8ac9847951e553e3ebb82ee3d47bc9/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/justice/.gradle/caches/transforms-3/77aba377857bf52c9189330292b868ea/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /home/justice/.gradle/caches/transforms-3/6e41f6c19598ead61cc0401f5113404f/transformed/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/justice/.gradle/caches/transforms-3/482cd707a6f060a0f1a100178ee95147/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/justice/.gradle/caches/transforms-3/ecdb6b764152ab34a8dfc0324c9b0d06/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/justice/.gradle/caches/transforms-3/670fc0dcb4716f81b919502addf69405/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/justice/.gradle/caches/transforms-3/9dad626e2a16baf845814c0d044fb972/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/justice/.gradle/caches/transforms-3/2d2c2bb6d21108037afd44d33526b837/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /home/justice/.gradle/caches/transforms-3/6e0828102d9571182d0a27ea4478a330/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] /home/justice/.gradle/caches/transforms-3/f788b7562abe27be51c7ea0df09ebe00/transformed/navigation-common-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.0] /home/justice/.gradle/caches/transforms-3/fed7a04f3420d03eb0f32e3a38e94606/transformed/core-1.3.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0-alpha01] /home/justice/.gradle/caches/transforms-3/8c957399c6f69eb751fb327ea36b9d8d/transformed/lifecycle-runtime-2.3.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/justice/.gradle/caches/transforms-3/834049aeb2d7c1ddc418b77f17faf38b/transformed/sqlite-framework-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] /home/justice/.gradle/caches/transforms-3/23b4f1ff07a809cd49abc54436299ded/transformed/sqlite-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/justice/.gradle/caches/transforms-3/c7e2ef694bd79299410fba8a15ed3766/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/justice/.gradle/caches/transforms-3/f61b796a6baecaf6ec6a1833a2369a8d/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.28.3] /home/justice/.gradle/caches/transforms-3/4d50d0771ee537c9926b743ed7ab7c42/transformed/jetified-dagger-lint-aar-2.28.3/AndroidManifest.xml:16:1-19:12
+INJECTED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
+		INJECTED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
+		ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:2:1-35:12
+		INJECTED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
+		ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:2:1-35:12
+		INJECTED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:5:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:7:1-62
+	android:name
+		ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:7:18-60
+application
+ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:8:5-33:19
+MERGED from [com.google.android.material:material:1.1.0] /home/justice/.gradle/caches/transforms-3/8d907af5f8f0be1e749f65c7960d4e42/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /home/justice/.gradle/caches/transforms-3/8d907af5f8f0be1e749f65c7960d4e42/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/justice/.gradle/caches/transforms-3/e34fa100875ba00a451d152a37b1936a/transformed/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/justice/.gradle/caches/transforms-3/e34fa100875ba00a451d152a37b1936a/transformed/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/justice/.gradle/caches/transforms-3/989c7c2817627b994857d168806b175b/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/justice/.gradle/caches/transforms-3/989c7c2817627b994857d168806b175b/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.room:room-runtime:2.2.5] /home/justice/.gradle/caches/transforms-3/568d24c3c1170ed4847ea5f0e1448bb0/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] /home/justice/.gradle/caches/transforms-3/568d24c3c1170ed4847ea5f0e1448bb0/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/justice/.gradle/caches/transforms-3/3a8ac9847951e553e3ebb82ee3d47bc9/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/justice/.gradle/caches/transforms-3/3a8ac9847951e553e3ebb82ee3d47bc9/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.core:core:1.3.0] /home/justice/.gradle/caches/transforms-3/fed7a04f3420d03eb0f32e3a38e94606/transformed/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.0] /home/justice/.gradle/caches/transforms-3/fed7a04f3420d03eb0f32e3a38e94606/transformed/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/justice/.gradle/caches/transforms-3/c7e2ef694bd79299410fba8a15ed3766/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/justice/.gradle/caches/transforms-3/c7e2ef694bd79299410fba8a15ed3766/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.0] /home/justice/.gradle/caches/transforms-3/fed7a04f3420d03eb0f32e3a38e94606/transformed/core-1.3.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:12:9-55
+	android:icon
+		ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:10:9-50
+	android:allowBackup
+		ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:14:9-40
+	android:usesCleartextTraffic
+		ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:16:9-44
+	android:name
+		ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:15:9-49
+activity#com.justice.shopmanagement.ui.MainActivity
+ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:20:9-26:20
+	android:name
+		ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:20:19-50
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:24:27-74
+activity#com.justice.shopmanagement.AddGoodsActivity
+ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:28:9-54
+	android:name
+		ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:28:19-51
+activity#com.justice.shopmanagement.out_of_stock.OutOfStockActivity
+ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:29:9-30:45
+	android:launchMode
+		ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:30:13-43
+	android:name
+		ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:29:19-66
+activity#com.justice.shopmanagement.charges.ChargesActivity
+ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:31:9-32:45
+	android:launchMode
+		ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:31:19-58
+uses-sdk
+INJECTED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
+INJECTED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.0.3] /home/justice/.gradle/caches/transforms-3/b96c972613dfa462bc39dea0ab3782ff/transformed/jetified-viewbinding-7.0.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.3] /home/justice/.gradle/caches/transforms-3/b96c972613dfa462bc39dea0ab3782ff/transformed/jetified-viewbinding-7.0.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /home/justice/.gradle/caches/transforms-3/fd3fe8f6123eba96cc32857be86479c5/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /home/justice/.gradle/caches/transforms-3/fd3fe8f6123eba96cc32857be86479c5/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.0-alpha04] /home/justice/.gradle/caches/transforms-3/88d3ff12a86aa6cdd5357d424d004d80/transformed/jetified-fragment-ktx-1.3.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.0-alpha04] /home/justice/.gradle/caches/transforms-3/88d3ff12a86aa6cdd5357d424d004d80/transformed/jetified-fragment-ktx-1.3.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /home/justice/.gradle/caches/transforms-3/cb6a6db9f12b279520800cd4485ec7a7/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /home/justice/.gradle/caches/transforms-3/cb6a6db9f12b279520800cd4485ec7a7/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /home/justice/.gradle/caches/transforms-3/cc8af6d9344cf28666acab000e06a7b9/transformed/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /home/justice/.gradle/caches/transforms-3/cc8af6d9344cf28666acab000e06a7b9/transformed/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.0-alpha04] /home/justice/.gradle/caches/transforms-3/156e7f529b74be9c561683bbd0c9d838/transformed/jetified-activity-ktx-1.2.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.0-alpha04] /home/justice/.gradle/caches/transforms-3/156e7f529b74be9c561683bbd0c9d838/transformed/jetified-activity-ktx-1.2.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0-alpha02] /home/justice/.gradle/caches/transforms-3/2e3edf0f936d3605bcaedefe465e423a/transformed/jetified-lifecycle-viewmodel-ktx-2.3.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0-alpha02] /home/justice/.gradle/caches/transforms-3/2e3edf0f936d3605bcaedefe465e423a/transformed/jetified-lifecycle-viewmodel-ktx-2.3.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0-alpha01] /home/justice/.gradle/caches/transforms-3/71301a2e44e1a0999a0011515e20cf4d/transformed/jetified-lifecycle-runtime-ktx-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0-alpha01] /home/justice/.gradle/caches/transforms-3/71301a2e44e1a0999a0011515e20cf4d/transformed/jetified-lifecycle-runtime-ktx-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /home/justice/.gradle/caches/transforms-3/5f155862dd3ad46d8bc74d615684a4d4/transformed/navigation-common-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /home/justice/.gradle/caches/transforms-3/5f155862dd3ad46d8bc74d615684a4d4/transformed/navigation-common-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.1.0] /home/justice/.gradle/caches/transforms-3/ec88a4fb709dc310112b37de02f13bde/transformed/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] /home/justice/.gradle/caches/transforms-3/ec88a4fb709dc310112b37de02f13bde/transformed/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.0-alpha02] /home/justice/.gradle/caches/transforms-3/23991c162e9db0eeedfd24a80e6d6c68/transformed/jetified-lifecycle-livedata-core-ktx-2.3.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.0-alpha02] /home/justice/.gradle/caches/transforms-3/23991c162e9db0eeedfd24a80e6d6c68/transformed/jetified-lifecycle-livedata-core-ktx-2.3.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/justice/.gradle/caches/transforms-3/ddce29a6d36b436eb42d519f778f062f/transformed/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/justice/.gradle/caches/transforms-3/ddce29a6d36b436eb42d519f778f062f/transformed/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.1.0] /home/justice/.gradle/caches/transforms-3/8d907af5f8f0be1e749f65c7960d4e42/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /home/justice/.gradle/caches/transforms-3/8d907af5f8f0be1e749f65c7960d4e42/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/justice/.gradle/caches/transforms-3/1615b0985eb43f60db4f9d4d58b08fd9/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/justice/.gradle/caches/transforms-3/1615b0985eb43f60db4f9d4d58b08fd9/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/justice/.gradle/caches/transforms-3/e34fa100875ba00a451d152a37b1936a/transformed/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/justice/.gradle/caches/transforms-3/e34fa100875ba00a451d152a37b1936a/transformed/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/justice/.gradle/caches/transforms-3/989c7c2817627b994857d168806b175b/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/justice/.gradle/caches/transforms-3/989c7c2817627b994857d168806b175b/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/justice/.gradle/caches/transforms-3/974974e00cb73636be536f0f58950636/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/justice/.gradle/caches/transforms-3/974974e00cb73636be536f0f58950636/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/justice/.gradle/caches/transforms-3/cd002fa6af28a5de3dc447c0adeaa51d/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/justice/.gradle/caches/transforms-3/cd002fa6af28a5de3dc447c0adeaa51d/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/justice/.gradle/caches/transforms-3/ff9a7dc7ba972f7e61f01fc898327f5b/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/justice/.gradle/caches/transforms-3/ff9a7dc7ba972f7e61f01fc898327f5b/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha02] /home/justice/.gradle/caches/transforms-3/7422edde993ead32a4c7a2572143e07e/transformed/jetified-hilt-lifecycle-viewmodel-1.0.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha02] /home/justice/.gradle/caches/transforms-3/7422edde993ead32a4c7a2572143e07e/transformed/jetified-hilt-lifecycle-viewmodel-1.0.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-common:1.0.0-alpha02] /home/justice/.gradle/caches/transforms-3/515389f53e27c8a455ece831b02f1e3f/transformed/jetified-hilt-common-1.0.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-common:1.0.0-alpha02] /home/justice/.gradle/caches/transforms-3/515389f53e27c8a455ece831b02f1e3f/transformed/jetified-hilt-common-1.0.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:hilt-android:2.28.3-alpha] /home/justice/.gradle/caches/transforms-3/c12d9a41d55276ca377df4c6a65426cd/transformed/jetified-hilt-android-2.28.3-alpha/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.28.3-alpha] /home/justice/.gradle/caches/transforms-3/c12d9a41d55276ca377df4c6a65426cd/transformed/jetified-hilt-android-2.28.3-alpha/AndroidManifest.xml:18:3-42
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /home/justice/.gradle/caches/transforms-3/03f08e71f85f62e2af58fd0a22bea157/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /home/justice/.gradle/caches/transforms-3/03f08e71f85f62e2af58fd0a22bea157/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.0-alpha04] /home/justice/.gradle/caches/transforms-3/0cb50d0cf9aafdbeb9d99cb576840d2c/transformed/fragment-1.3.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.0-alpha04] /home/justice/.gradle/caches/transforms-3/0cb50d0cf9aafdbeb9d99cb576840d2c/transformed/fragment-1.3.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /home/justice/.gradle/caches/transforms-3/e2b20906a36c71a5d2366057135126be/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /home/justice/.gradle/caches/transforms-3/e2b20906a36c71a5d2366057135126be/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.0-alpha04] /home/justice/.gradle/caches/transforms-3/8060a4a2c8a19d3cfac9677aa53444e5/transformed/jetified-activity-1.2.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.0-alpha04] /home/justice/.gradle/caches/transforms-3/8060a4a2c8a19d3cfac9677aa53444e5/transformed/jetified-activity-1.2.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0-alpha02] /home/justice/.gradle/caches/transforms-3/4260f209545244f9eb733fef42d3b76a/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0-alpha02] /home/justice/.gradle/caches/transforms-3/4260f209545244f9eb733fef42d3b76a/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /home/justice/.gradle/caches/transforms-3/f4066b4dc3c88dc4da1db65a36b8bbb7/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/justice/.gradle/caches/transforms-3/f4066b4dc3c88dc4da1db65a36b8bbb7/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0-alpha02] /home/justice/.gradle/caches/transforms-3/416665a01e75d34c09ba910eec54f047/transformed/lifecycle-viewmodel-2.3.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0-alpha02] /home/justice/.gradle/caches/transforms-3/416665a01e75d34c09ba910eec54f047/transformed/lifecycle-viewmodel-2.3.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/justice/.gradle/caches/transforms-3/c6cc80f227fd44fee808a4e9335ce6fc/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/justice/.gradle/caches/transforms-3/c6cc80f227fd44fee808a4e9335ce6fc/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /home/justice/.gradle/caches/transforms-3/568d24c3c1170ed4847ea5f0e1448bb0/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /home/justice/.gradle/caches/transforms-3/568d24c3c1170ed4847ea5f0e1448bb0/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/justice/.gradle/caches/transforms-3/75936cac93d2f83c3325159005ea5e73/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/justice/.gradle/caches/transforms-3/75936cac93d2f83c3325159005ea5e73/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/justice/.gradle/caches/transforms-3/fd74fd230cf6179efc64d748d72aed51/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/justice/.gradle/caches/transforms-3/fd74fd230cf6179efc64d748d72aed51/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0-alpha02] /home/justice/.gradle/caches/transforms-3/d0ae25433f62d5be842584258593b77d/transformed/lifecycle-livedata-core-2.3.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0-alpha02] /home/justice/.gradle/caches/transforms-3/d0ae25433f62d5be842584258593b77d/transformed/lifecycle-livedata-core-2.3.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/justice/.gradle/caches/transforms-3/261c207cbdd2339dd31d8038a3a15227/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/justice/.gradle/caches/transforms-3/261c207cbdd2339dd31d8038a3a15227/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/justice/.gradle/caches/transforms-3/b1b9ea09237f3f428b567a479a7b1844/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/justice/.gradle/caches/transforms-3/b1b9ea09237f3f428b567a479a7b1844/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/justice/.gradle/caches/transforms-3/3a8ac9847951e553e3ebb82ee3d47bc9/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/justice/.gradle/caches/transforms-3/3a8ac9847951e553e3ebb82ee3d47bc9/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/justice/.gradle/caches/transforms-3/77aba377857bf52c9189330292b868ea/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/justice/.gradle/caches/transforms-3/77aba377857bf52c9189330292b868ea/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /home/justice/.gradle/caches/transforms-3/6e41f6c19598ead61cc0401f5113404f/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /home/justice/.gradle/caches/transforms-3/6e41f6c19598ead61cc0401f5113404f/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/justice/.gradle/caches/transforms-3/482cd707a6f060a0f1a100178ee95147/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/justice/.gradle/caches/transforms-3/482cd707a6f060a0f1a100178ee95147/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/justice/.gradle/caches/transforms-3/ecdb6b764152ab34a8dfc0324c9b0d06/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/justice/.gradle/caches/transforms-3/ecdb6b764152ab34a8dfc0324c9b0d06/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/justice/.gradle/caches/transforms-3/670fc0dcb4716f81b919502addf69405/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/justice/.gradle/caches/transforms-3/670fc0dcb4716f81b919502addf69405/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/justice/.gradle/caches/transforms-3/9dad626e2a16baf845814c0d044fb972/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/justice/.gradle/caches/transforms-3/9dad626e2a16baf845814c0d044fb972/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/justice/.gradle/caches/transforms-3/2d2c2bb6d21108037afd44d33526b837/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/justice/.gradle/caches/transforms-3/2d2c2bb6d21108037afd44d33526b837/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /home/justice/.gradle/caches/transforms-3/6e0828102d9571182d0a27ea4478a330/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/justice/.gradle/caches/transforms-3/6e0828102d9571182d0a27ea4478a330/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] /home/justice/.gradle/caches/transforms-3/f788b7562abe27be51c7ea0df09ebe00/transformed/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] /home/justice/.gradle/caches/transforms-3/f788b7562abe27be51c7ea0df09ebe00/transformed/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] /home/justice/.gradle/caches/transforms-3/fed7a04f3420d03eb0f32e3a38e94606/transformed/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] /home/justice/.gradle/caches/transforms-3/fed7a04f3420d03eb0f32e3a38e94606/transformed/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0-alpha01] /home/justice/.gradle/caches/transforms-3/8c957399c6f69eb751fb327ea36b9d8d/transformed/lifecycle-runtime-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0-alpha01] /home/justice/.gradle/caches/transforms-3/8c957399c6f69eb751fb327ea36b9d8d/transformed/lifecycle-runtime-2.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/justice/.gradle/caches/transforms-3/834049aeb2d7c1ddc418b77f17faf38b/transformed/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/justice/.gradle/caches/transforms-3/834049aeb2d7c1ddc418b77f17faf38b/transformed/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /home/justice/.gradle/caches/transforms-3/23b4f1ff07a809cd49abc54436299ded/transformed/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /home/justice/.gradle/caches/transforms-3/23b4f1ff07a809cd49abc54436299ded/transformed/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/justice/.gradle/caches/transforms-3/c7e2ef694bd79299410fba8a15ed3766/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/justice/.gradle/caches/transforms-3/c7e2ef694bd79299410fba8a15ed3766/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/justice/.gradle/caches/transforms-3/f61b796a6baecaf6ec6a1833a2369a8d/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/justice/.gradle/caches/transforms-3/f61b796a6baecaf6ec6a1833a2369a8d/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-lint-aar:2.28.3] /home/justice/.gradle/caches/transforms-3/4d50d0771ee537c9926b743ed7ab7c42/transformed/jetified-dagger-lint-aar-2.28.3/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.28.3] /home/justice/.gradle/caches/transforms-3/4d50d0771ee537c9926b743ed7ab7c42/transformed/jetified-dagger-lint-aar-2.28.3/AndroidManifest.xml:18:3-42
+INJECTED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
+INJECTED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
+		ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
+		INJECTED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
+		ADDED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
+		INJECTED from /home/justice/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] /home/justice/.gradle/caches/transforms-3/568d24c3c1170ed4847ea5f0e1448bb0/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] /home/justice/.gradle/caches/transforms-3/568d24c3c1170ed4847ea5f0e1448bb0/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] /home/justice/.gradle/caches/transforms-3/568d24c3c1170ed4847ea5f0e1448bb0/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] /home/justice/.gradle/caches/transforms-3/568d24c3c1170ed4847ea5f0e1448bb0/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/justice/.gradle/caches/transforms-3/3a8ac9847951e553e3ebb82ee3d47bc9/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/justice/.gradle/caches/transforms-3/3a8ac9847951e553e3ebb82ee3d47bc9/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/justice/.gradle/caches/transforms-3/3a8ac9847951e553e3ebb82ee3d47bc9/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/justice/.gradle/caches/transforms-3/3a8ac9847951e553e3ebb82ee3d47bc9/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/justice/.gradle/caches/transforms-3/3a8ac9847951e553e3ebb82ee3d47bc9/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
