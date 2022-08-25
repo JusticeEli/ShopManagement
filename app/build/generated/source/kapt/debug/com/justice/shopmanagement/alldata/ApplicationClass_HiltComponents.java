@@ -8,7 +8,7 @@ import com.justice.shopmanagement.ui.MainActivity_GeneratedInjector;
 import com.justice.shopmanagement.ui.goods.AddGoodsFragment_GeneratedInjector;
 import com.justice.shopmanagement.ui.goods.EditGoodsActivity_GeneratedInjector;
 import com.justice.shopmanagement.ui.goods.GoodsFragment_GeneratedInjector;
-import com.justice.shopmanagement.viewmodel.GoodsViewModel_HiltModule;
+import com.justice.shopmanagement.ui.goods.GoodsViewModel_HiltModule;
 import dagger.Binds;
 import dagger.Component;
 import dagger.Module;

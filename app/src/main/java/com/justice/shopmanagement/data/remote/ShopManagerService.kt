@@ -9,9 +9,20 @@ import retrofit2.http.POST
 interface ShopManagerService {
 
     @POST("initialize")
-    suspend fun initialize(@Body jsonObject: JsonObject): Response<String>
+    suspend fun initialize(): Response<List<Goods>>
 
     @POST("insert_goods")
     suspend fun insertGoods(@Body goods: Goods): Response<List<Goods>>
+
+    @POST("update")
+    suspend fun update(@Body goods: Goods): Response<List<Goods>>
+
+    @POST("delete")
+    suspend fun delete(@Body goods: Goods): Response<List<Goods>>
+
+    @POST("get_all")
+    suspend fun getAll(): Response<List<Goods>>
+    @POST("delete_all")
+    suspend fun deleteAll(): Response<List<Goods>>
 
 }

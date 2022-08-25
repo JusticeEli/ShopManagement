@@ -19,7 +19,7 @@ import com.justice.shopmanagement.model.GoodsOutOfStock
 import com.justice.shopmanagement.viewmodel.GoodBuyViewModel
 import com.justice.shopmanagement.viewmodel.GoodsOutOfStockViewModel
 
-class GoodsActivityRecyclerAdapter(val context: Context) : ListAdapter<Goods,GoodsViewHolder>(DIFF_CALLBACK) {
+class GoodsFragmentRecyclerAdapter(val context: Context,val onEdit:(goods:Goods)->Unit) : ListAdapter<Goods,GoodsViewHolder>(DIFF_CALLBACK) {
 
     override fun onCreateViewHolder(
         parent: ViewGroup,
@@ -61,14 +61,18 @@ class GoodsActivityRecyclerAdapter(val context: Context) : ListAdapter<Goods,Goo
                 goodsViewModel.insert(GoodsOutOfStock(name, image, price.toString()))*/
             }
         })
-        holder.goodsCardView.setOnLongClickListener(object : OnLongClickListener {
+
+        holder.goodsCardView.setOnClickListener {
+            onEdit(getItem(position))
+        }
+/*        holder.goodsCardView.setOnLongClickListener(object : OnLongClickListener {
             override fun onLongClick(v: View): Boolean {
                 deleteOrEdit()
                 return true
             }
 
             private fun deleteOrEdit() {
-            /*    val builder = AlertDialog.Builder(context).setTitle("Confirm")
+            *//*    val builder = AlertDialog.Builder(context).setTitle("Confirm")
                     .setNegativeButton("Delete !!") { dialog, which ->
                         context.goodsViewModel.delete(getItem(position))
                         Toast.makeText(
@@ -83,12 +87,12 @@ class GoodsActivityRecyclerAdapter(val context: Context) : ListAdapter<Goods,Goo
                         context.startActivity(intent)
                         notifyItemChanged(position)
                     }
-                builder.create().show()*/
+                builder.create().show()*//*
             }
-        })
+        })*/
     }
 
-    fun getNoteAt(adapterPosition: Int): Goods? {
+    fun getGoodAt(adapterPosition: Int): Goods? {
         return getItem(adapterPosition)
     }
 

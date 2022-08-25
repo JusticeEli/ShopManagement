@@ -16,6 +16,7 @@ id aboutUsMenu
 id action_firstPageActivity_to_addGoodsFragment
 id action_firstPageActivity_to_goodsFragment
 id action_goodsFragment_to_addGoodsFragment
+id action_goodsFragment_to_editGoodsActivity
 id addGoodsBtn
 id addGoodsFragment
 id addGoodsMenu
@@ -25,6 +26,7 @@ id chargesBtn
 id chargesMenu
 id chargesTxtView
 id clearMenu
+id deleteAllMenu
 id drawer
 id editGoodsActivity
 id exitMenu
@@ -36,8 +38,8 @@ id goodsCardView
 id goodsFragment
 id goodsMenu
 id header
-id headerRelLayout
 id homeMenu
+id initializeMenu
 id nameEdtTxt
 id nameTxtView
 id nav_graph
@@ -51,7 +53,6 @@ id priceTxtView
 id progressBar
 id recyclerView
 id removeBtn
-id searchEdtTxt
 id searchItem
 id sortMenu
 id submitBtn
@@ -72,6 +73,7 @@ menu activity_charges_sidebar
 menu activity_goods_sidebar
 menu menu_charges
 menu menu_goods
+menu menu_goods_2
 menu menu_out_of_stock
 mipmap approve
 mipmap background1

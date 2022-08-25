@@ -20,8 +20,8 @@ import com.justice.shopmanagement.ui.MainActivity;
 import com.justice.shopmanagement.ui.goods.AddGoodsFragment;
 import com.justice.shopmanagement.ui.goods.EditGoodsActivity;
 import com.justice.shopmanagement.ui.goods.GoodsFragment;
-import com.justice.shopmanagement.viewmodel.GoodsViewModel_AssistedFactory;
-import com.justice.shopmanagement.viewmodel.GoodsViewModel_AssistedFactory_Factory;
+import com.justice.shopmanagement.ui.goods.GoodsViewModel_AssistedFactory;
+import com.justice.shopmanagement.ui.goods.GoodsViewModel_AssistedFactory_Factory;
 import dagger.hilt.android.internal.builders.ActivityComponentBuilder;
 import dagger.hilt.android.internal.builders.ActivityRetainedComponentBuilder;
 import dagger.hilt.android.internal.builders.FragmentComponentBuilder;
@@ -199,7 +199,7 @@ public final class DaggerApplicationClass_HiltComponents_SingletonC extends Appl
 
       private Map<String, Provider<ViewModelAssistedFactory<? extends ViewModel>>> getMapOfStringAndProviderOfViewModelAssistedFactoryOf(
           ) {
-        return Collections.<String, Provider<ViewModelAssistedFactory<? extends ViewModel>>>singletonMap("com.justice.shopmanagement.viewmodel.GoodsViewModel", (Provider) getGoodsViewModel_AssistedFactoryProvider());
+        return Collections.<String, Provider<ViewModelAssistedFactory<? extends ViewModel>>>singletonMap("com.justice.shopmanagement.ui.goods.GoodsViewModel", (Provider) getGoodsViewModel_AssistedFactoryProvider());
       }
 
       private ViewModelProvider.Factory getProvideFactory() {
@@ -207,11 +207,11 @@ public final class DaggerApplicationClass_HiltComponents_SingletonC extends Appl
       }
 
       @Override
-      public void injectHiltTestActivity(HiltTestActivity arg0) {
+      public void injectHiltTestActivity(HiltTestActivity hiltTestActivity) {
       }
 
       @Override
-      public void injectMainActivity(MainActivity arg0) {
+      public void injectMainActivity(MainActivity mainActivity) {
       }
 
       @Override
@@ -257,7 +257,7 @@ public final class DaggerApplicationClass_HiltComponents_SingletonC extends Appl
         }
 
         @Override
-        public void injectFirstPageActivity(FirstPageActivity arg0) {
+        public void injectFirstPageActivity(FirstPageActivity firstPageActivity) {
         }
 
         @Override
@@ -265,11 +265,11 @@ public final class DaggerApplicationClass_HiltComponents_SingletonC extends Appl
         }
 
         @Override
-        public void injectEditGoodsActivity(EditGoodsActivity arg0) {
+        public void injectEditGoodsActivity(EditGoodsActivity editGoodsActivity) {
         }
 
         @Override
-        public void injectGoodsFragment(GoodsFragment arg0) {
+        public void injectGoodsFragment(GoodsFragment goodsFragment) {
         }
 
         @Override
@@ -338,7 +338,7 @@ public final class DaggerApplicationClass_HiltComponents_SingletonC extends Appl
         @Override
         public T get() {
           switch (id) {
-            case 0: // com.justice.shopmanagement.viewmodel.GoodsViewModel_AssistedFactory 
+            case 0: // com.justice.shopmanagement.ui.goods.GoodsViewModel_AssistedFactory 
             return (T) ActivityCImpl.this.getGoodsViewModel_AssistedFactory();
 
             default: throw new AssertionError(id);

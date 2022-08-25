@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/firstPageActivity">
+    app:startDestination="@id/goodsFragment">
     <fragment
         android:id="@+id/firstPageActivity"
         android:name="com.justice.shopmanagement.ui.FirstPageActivity"
@@ -22,6 +22,9 @@
         <action
             android:id="@+id/action_goodsFragment_to_addGoodsFragment"
             app:destination="@id/addGoodsFragment" />
+        <action
+            android:id="@+id/action_goodsFragment_to_editGoodsActivity"
+            app:destination="@id/editGoodsActivity" />
     </fragment>
     <fragment
         android:id="@+id/addGoodsFragment"

@@ -4,10 +4,10 @@ package com.justice.shopmanagement.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.coordinatorlayout.widget.CoordinatorLayout;
-import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -19,33 +19,33 @@ import java.lang.String;
 
 public final class FragmentGoodsBinding implements ViewBinding {
   @NonNull
-  private final DrawerLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
-  public final DrawerLayout drawer;
+  public final ConstraintLayout drawer;
 
   @NonNull
   public final FloatingActionButton fob;
 
   @NonNull
-  public final CoordinatorLayout headerRelLayout;
+  public final ProgressBar progressBar;
 
   @NonNull
   public final RecyclerView recyclerView;
 
-  private FragmentGoodsBinding(@NonNull DrawerLayout rootView, @NonNull DrawerLayout drawer,
-      @NonNull FloatingActionButton fob, @NonNull CoordinatorLayout headerRelLayout,
+  private FragmentGoodsBinding(@NonNull ConstraintLayout rootView, @NonNull ConstraintLayout drawer,
+      @NonNull FloatingActionButton fob, @NonNull ProgressBar progressBar,
       @NonNull RecyclerView recyclerView) {
     this.rootView = rootView;
     this.drawer = drawer;
     this.fob = fob;
-    this.headerRelLayout = headerRelLayout;
+    this.progressBar = progressBar;
     this.recyclerView = recyclerView;
   }
 
   @Override
   @NonNull
-  public DrawerLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -70,7 +70,7 @@ public final class FragmentGoodsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      DrawerLayout drawer = (DrawerLayout) rootView;
+      ConstraintLayout drawer = (ConstraintLayout) rootView;
 
       id = R.id.fob;
       FloatingActionButton fob = ViewBindings.findChildViewById(rootView, id);
@@ -78,9 +78,9 @@ public final class FragmentGoodsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.headerRelLayout;
-      CoordinatorLayout headerRelLayout = ViewBindings.findChildViewById(rootView, id);
-      if (headerRelLayout == null) {
+      id = R.id.progressBar;
+      ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar == null) {
         break missingId;
       }
 
@@ -90,7 +90,7 @@ public final class FragmentGoodsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentGoodsBinding((DrawerLayout) rootView, drawer, fob, headerRelLayout,
+      return new FragmentGoodsBinding((ConstraintLayout) rootView, drawer, fob, progressBar,
           recyclerView);
     }
     String missingId = rootView.getResources().getResourceName(id);

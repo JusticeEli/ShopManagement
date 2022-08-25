@@ -11,12 +11,18 @@ class SolanaRepository constructor( private val service: ShopManagerService):Sho
 
 
 
-    override suspend fun initialize() {
-        TODO("Not yet implemented")
-    }
+    override suspend fun initialize() =service.initialize()
 
-    override suspend fun insert(goods: Goods?): Response<List<Goods>> =
-      service.insertGoods(goods!!)
+
+    override suspend fun update(goods: Goods): Response<List<Goods>> =service.update(goods)
+
+    override suspend fun delete(goods: Goods): Response<List<Goods>> =service.delete(goods)
+
+    override suspend fun deleteAll(): Response<List<Goods>> =service.deleteAll()
+
+    override suspend fun getAll(): Response<List<Goods>> =service.getAll()
+
+    override suspend fun insert(goods: Goods): Response<List<Goods>> = service.insertGoods(goods!!)
 
 
 }

@@ -8,6 +8,8 @@
         <entry key="app/src/main/res/layout/fragment_edit_goods.xml" value="0.29322916666666665" />
         <entry key="app/src/main/res/layout/fragment_first_page.xml" value="0.29322916666666665" />
         <entry key="app/src/main/res/layout/fragment_goods.xml" value="0.29322916666666665" />
+        <entry key="app/src/main/res/menu/menu_goods.xml" value="0.35052083333333334" />
+        <entry key="app/src/main/res/menu/menu_goods_2.xml" value="0.35052083333333334" />
       </map>
     </option>
   </component>
