@@ -9,6 +9,7 @@ import androidx.hilt.lifecycle.ViewModelFactoryModules_ActivityModule_ProvideFac
 import androidx.hilt.lifecycle.ViewModelFactoryModules_FragmentModule_ProvideFactoryFactory;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
+import com.justice.shopmanagement.HiltTestActivity;
 import com.justice.shopmanagement.data.remote.ShopManagerService;
 import com.justice.shopmanagement.di.AppModule;
 import com.justice.shopmanagement.di.AppModule_ProvideRetrofitServiceFactory;
@@ -206,6 +207,10 @@ public final class DaggerApplicationClass_HiltComponents_SingletonC extends Appl
       }
 
       @Override
+      public void injectHiltTestActivity(HiltTestActivity arg0) {
+      }
+
+      @Override
       public void injectMainActivity(MainActivity arg0) {
       }
 
@@ -256,7 +261,7 @@ public final class DaggerApplicationClass_HiltComponents_SingletonC extends Appl
         }
 
         @Override
-        public void injectAddGoodsFragment(AddGoodsFragment arg0) {
+        public void injectAddGoodsFragment(AddGoodsFragment addGoodsFragment) {
         }
 
         @Override

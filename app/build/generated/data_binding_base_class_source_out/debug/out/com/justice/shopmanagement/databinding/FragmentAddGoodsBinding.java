@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -27,14 +28,18 @@ public final class FragmentAddGoodsBinding implements ViewBinding {
   public final TextInputEditText priceEdtTxt;
 
   @NonNull
+  public final ProgressBar progressBar;
+
+  @NonNull
   public final Button submitBtn;
 
   private FragmentAddGoodsBinding(@NonNull RelativeLayout rootView,
       @NonNull TextInputEditText nameEdtTxt, @NonNull TextInputEditText priceEdtTxt,
-      @NonNull Button submitBtn) {
+      @NonNull ProgressBar progressBar, @NonNull Button submitBtn) {
     this.rootView = rootView;
     this.nameEdtTxt = nameEdtTxt;
     this.priceEdtTxt = priceEdtTxt;
+    this.progressBar = progressBar;
     this.submitBtn = submitBtn;
   }
 
@@ -77,6 +82,12 @@ public final class FragmentAddGoodsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.progressBar;
+      ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar == null) {
+        break missingId;
+      }
+
       id = R.id.submitBtn;
       Button submitBtn = ViewBindings.findChildViewById(rootView, id);
       if (submitBtn == null) {
@@ -84,7 +95,7 @@ public final class FragmentAddGoodsBinding implements ViewBinding {
       }
 
       return new FragmentAddGoodsBinding((RelativeLayout) rootView, nameEdtTxt, priceEdtTxt,
-          submitBtn);
+          progressBar, submitBtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

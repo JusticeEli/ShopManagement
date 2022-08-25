@@ -1,15 +1,39 @@
 [
     {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-ldpi_ic_search.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-ldpi/ic_search.png"
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-xhdpi_ic_shopping_cart.png.flat",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/drawable-xhdpi/ic_shopping_cart.png"
     },
     {
         "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_shopping_cart.png.flat",
         "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/drawable-hdpi/ic_shopping_cart.png"
+    },
+    {
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable_ic_add.xml.flat",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/drawable/ic_add.xml"
+    },
+    {
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_shopping_cart.png.flat",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/drawable-mdpi/ic_shopping_cart.png"
+    },
+    {
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/layout_fragment_add_goods.xml.flat",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/layout/fragment_add_goods.xml"
+    },
+    {
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
         "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/mipmap-hdpi_approve.jpg.flat",
@@ -20,72 +44,84 @@
         "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/mipmap-hdpi_background2.png.flat",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/mipmap-hdpi/background2.png"
+    },
+    {
         "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/layout_sidebar_charges.xml.flat",
         "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/layout/sidebar_charges.xml"
     },
     {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-ldpi_ic_add.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-ldpi/ic_add.png"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_ic_shopping_cart.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_shopping_cart.png"
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/layout_fragment_goods.xml.flat",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/layout/fragment_goods.xml"
     },
     {
         "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/layout_fragment_first_page.xml.flat",
         "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/layout/fragment_first_page.xml"
     },
     {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_search.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-hdpi/ic_search.png"
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/menu_activity_charges_sidebar.xml.flat",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/menu/activity_charges_sidebar.xml"
     },
     {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_launcher_background.xml"
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_launcher_background.png"
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_launcher_background.png"
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/menu_menu_out_of_stock.xml.flat",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/menu/menu_out_of_stock.xml"
     },
     {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_ic_search.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_search.png"
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable_ic_exit_97636.xml.flat",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/drawable/ic_exit_97636.xml"
     },
     {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-mdpi/ic_launcher_background.png"
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_exit_97636.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-hdpi/ic_exit_97636.png"
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/layout_item_goods.xml.flat",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/layout/item_goods.xml"
+    },
+    {
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/layout_item_out_of_stock.xml.flat",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/layout/item_out_of_stock.xml"
+    },
+    {
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/menu_activity_goods_sidebar.xml.flat",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/menu/activity_goods_sidebar.xml"
     },
     {
         "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/layout_activity_charges.xml.flat",
         "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/layout/activity_charges.xml"
     },
     {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-anydpi-v21_ic_add.xml.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_add.xml"
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_shopping_cart.png.flat",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/drawable-xxhdpi/ic_shopping_cart.png"
     },
     {
         "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/navigation_nav_graph.xml.flat",
         "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/navigation/nav_graph.xml"
     },
     {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-ldpi_ic_shopping_cart.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-ldpi/ic_shopping_cart.png"
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/mipmap-hdpi_background1.jpg.flat",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/mipmap-hdpi/background1.jpg"
     },
     {
         "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/layout_item_charges.xml.flat",
@@ -104,164 +140,20 @@
         "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/drawable/button.xml"
     },
     {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_ic_exit_97636.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_exit_97636.png"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_exit_97636.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_exit_97636.png"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-xhdpi_ic_add.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_add.png"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/mipmap-mdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-xhdpi_ic_shopping_cart.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/drawable-xhdpi/ic_shopping_cart.png"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-anydpi-v21_ic_search.xml.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_search.xml"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_shopping_cart.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/drawable-mdpi/ic_shopping_cart.png"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/layout_fragment_add_goods.xml.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/layout/fragment_add_goods.xml"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_add.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_add.png"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_background.png"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/mipmap-hdpi_background2.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/mipmap-hdpi/background2.png"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_add.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-hdpi/ic_add.png"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/layout_fragment_goods.xml.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/layout/fragment_goods.xml"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-xhdpi_ic_exit_97636.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_exit_97636.png"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/menu_activity_charges_sidebar.xml.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/menu/activity_charges_sidebar.xml"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_exit_97636.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-mdpi/ic_exit_97636.png"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-anydpi-v21_ic_shopping_cart.xml.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_shopping_cart.xml"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/menu_menu_out_of_stock.xml.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/menu/menu_out_of_stock.xml"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_ic_add.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_add.png"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/mipmap-hdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_search.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_search.png"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/layout_item_goods.xml.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/layout/item_goods.xml"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/layout/activity_main.xml"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_search.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-mdpi/ic_search.png"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-ldpi_ic_exit_97636.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-ldpi/ic_exit_97636.png"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/layout_item_out_of_stock.xml.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/layout/item_out_of_stock.xml"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/menu_activity_goods_sidebar.xml.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/menu/activity_goods_sidebar.xml"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_background.png"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_shopping_cart.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/drawable-xxhdpi/ic_shopping_cart.png"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_exit_97636.xml.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_exit_97636.xml"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_add.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-mdpi/ic_add.png"
-    },
-    {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/mipmap-hdpi_background1.jpg.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/mipmap-hdpi/background1.jpg"
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-anydpi_ic_shopping_cart.xml.flat",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/drawable-anydpi/ic_shopping_cart.xml"
     },
     {
         "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/layout_fragment_edit_goods.xml.flat",
         "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/layout/fragment_edit_goods.xml"
     },
     {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/menu_menu_goods.xml.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/menu/menu_goods.xml"
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable-xhdpi_ic_search.png.flat",
-        "source": "/home/justice/StudioProjects/ShopManagement/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_search.png"
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/menu_menu_goods.xml.flat",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/menu/menu_goods.xml"
     },
     {
         "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -270,6 +162,10 @@
     {
         "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/drawable_ic_search.xml.flat",
+        "source": "/home/justice/StudioProjects/ShopManagement/app/src/main/res/drawable/ic_search.xml"
     },
     {
         "merged": "/home/justice/StudioProjects/ShopManagement/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",

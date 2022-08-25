@@ -7,7 +7,7 @@ public final class Constants {
     @org.jetbrains.annotations.NotNull()
     private static final java.lang.String SHARED_PREF_NAME = "shop_manager";
     @org.jetbrains.annotations.NotNull()
-    private static final java.lang.String BASE_URL = "https://c7ba-197-232-61-231.eu.ngrok.io/";
+    private static final java.lang.String BASE_URL = "https://3126-197-232-61-221.eu.ngrok.io/";
     @org.jetbrains.annotations.NotNull()
     public static final com.justice.shopmanagement.utils.Constants INSTANCE = null;
     

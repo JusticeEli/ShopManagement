@@ -1,20 +1,25 @@
-com/justice/shopmanagement/charges/ChargesActivityRecyclerAdapter.java
- com.justice.shopmanagement.charges.ChargesActivityRecyclerAdapter
- com.justice.shopmanagement.charges.ChargesActivityRecyclerAdapter$1
- com.justice.shopmanagement.charges.ChargesActivityRecyclerAdapter$2
- com.justice.shopmanagement.charges.ChargesActivityRecyclerAdapter$ViewHolder
-com/justice/shopmanagement/viewmodel/GoodsViewModel_AssistedFactory_Factory.java
- com.justice.shopmanagement.viewmodel.GoodsViewModel_AssistedFactory_Factory
+com/justice/shopmanagement/viewmodel/GoodsOutOfStockViewModel.java
+ com.justice.shopmanagement.viewmodel.GoodsOutOfStockViewModel
+hilt_aggregated_deps/com_justice_shopmanagement_HiltTestActivity_GeneratedInjectorModuleDeps.java
+ hilt_aggregated_deps.com_justice_shopmanagement_HiltTestActivity_GeneratedInjectorModuleDeps
+com/justice/shopmanagement/HiltTestActivity_GeneratedInjector.java
+ com.justice.shopmanagement.HiltTestActivity_GeneratedInjector
 com/justice/shopmanagement/BuildConfig.java
  com.justice.shopmanagement.BuildConfig
 com/justice/shopmanagement/viewmodel/GoodBuyViewModel.java
  com.justice.shopmanagement.viewmodel.GoodBuyViewModel
-com/justice/shopmanagement/databinding/ItemOutOfStockBinding.java
- com.justice.shopmanagement.databinding.ItemOutOfStockBinding
-com/justice/shopmanagement/databinding/FragmentEditGoodsBinding.java
- com.justice.shopmanagement.databinding.FragmentEditGoodsBinding
-com/justice/shopmanagement/ui/goods/GoodsFragment_GeneratedInjector.java
- com.justice.shopmanagement.ui.goods.GoodsFragment_GeneratedInjector
+com/justice/shopmanagement/ui/MainActivity_GeneratedInjector.java
+ com.justice.shopmanagement.ui.MainActivity_GeneratedInjector
+hilt_aggregated_deps/com_justice_shopmanagement_ui_FirstPageActivity_GeneratedInjectorModuleDeps.java
+ hilt_aggregated_deps.com_justice_shopmanagement_ui_FirstPageActivity_GeneratedInjectorModuleDeps
+com/justice/shopmanagement/repository/GoodsOutOfStockRepository.java
+ com.justice.shopmanagement.repository.GoodsOutOfStockRepository
+ com.justice.shopmanagement.repository.GoodsOutOfStockRepository$1
+ com.justice.shopmanagement.repository.GoodsOutOfStockRepository$DeleteAllNotesAsyncTask
+ com.justice.shopmanagement.repository.GoodsOutOfStockRepository$DeleteNoteAsyncTask
+ com.justice.shopmanagement.repository.GoodsOutOfStockRepository$InsertNoteAsyncTask
+hilt_aggregated_deps/com_justice_shopmanagement_ui_goods_GoodsFragment_GeneratedInjectorModuleDeps.java
+ hilt_aggregated_deps.com_justice_shopmanagement_ui_goods_GoodsFragment_GeneratedInjectorModuleDeps
 com/justice/shopmanagement/repository/GoodsRepository.java
  com.justice.shopmanagement.repository.GoodsRepository
  com.justice.shopmanagement.repository.GoodsRepository$1
@@ -22,115 +27,54 @@ com/justice/shopmanagement/repository/GoodsRepository.java
  com.justice.shopmanagement.repository.GoodsRepository$DeleteNoteAsyncTask
  com.justice.shopmanagement.repository.GoodsRepository$InsertNoteAsyncTask
  com.justice.shopmanagement.repository.GoodsRepository$UpdateNoteAsyncTask
-com/justice/shopmanagement/databinding/SidebarChargesBinding.java
- com.justice.shopmanagement.databinding.SidebarChargesBinding
-com/justice/shopmanagement/model/GoodsBuy.java
- com.justice.shopmanagement.model.GoodsBuy
-com/justice/shopmanagement/ui/goods/AddGoodsFragment_GeneratedInjector.java
- com.justice.shopmanagement.ui.goods.AddGoodsFragment_GeneratedInjector
-com/justice/shopmanagement/out_of_stock/OutOfStockRecyclerAdapter.java
- com.justice.shopmanagement.out_of_stock.OutOfStockRecyclerAdapter
- com.justice.shopmanagement.out_of_stock.OutOfStockRecyclerAdapter$1
- com.justice.shopmanagement.out_of_stock.OutOfStockRecyclerAdapter$2
- com.justice.shopmanagement.out_of_stock.OutOfStockRecyclerAdapter$ViewHolder
-com/justice/shopmanagement/model/GoodsOutOfStock.java
- com.justice.shopmanagement.model.GoodsOutOfStock
-com/justice/shopmanagement/viewmodel/GoodsViewModel_HiltModule.java
- com.justice.shopmanagement.viewmodel.GoodsViewModel_HiltModule
-hilt_aggregated_deps/com_justice_shopmanagement_viewmodel_GoodsViewModel_HiltModuleModuleDeps.java
- hilt_aggregated_deps.com_justice_shopmanagement_viewmodel_GoodsViewModel_HiltModuleModuleDeps
-com/justice/shopmanagement/out_of_stock/OutOfStockActivity.java
- com.justice.shopmanagement.out_of_stock.OutOfStockActivity
- com.justice.shopmanagement.out_of_stock.OutOfStockActivity$1
- com.justice.shopmanagement.out_of_stock.OutOfStockActivity$2
-com/justice/shopmanagement/database/GoodsDatabase.java
- com.justice.shopmanagement.database.GoodsDatabase
- com.justice.shopmanagement.database.GoodsDatabase$1
- com.justice.shopmanagement.database.GoodsDatabase$PopulateDbAsyncTask
-com/justice/shopmanagement/viewmodel/GoodsViewModel_AssistedFactory.java
- com.justice.shopmanagement.viewmodel.GoodsViewModel_AssistedFactory
-com/justice/shopmanagement/databinding/FragmentAddGoodsBinding.java
- com.justice.shopmanagement.databinding.FragmentAddGoodsBinding
-com/justice/shopmanagement/alldata/ApplicationClass_GeneratedInjector.java
- com.justice.shopmanagement.alldata.ApplicationClass_GeneratedInjector
-com/justice/shopmanagement/charges/ChargesActivity.java
- com.justice.shopmanagement.charges.ChargesActivity
- com.justice.shopmanagement.charges.ChargesActivity$1
- com.justice.shopmanagement.charges.ChargesActivity$2
- com.justice.shopmanagement.charges.ChargesActivity$3
- com.justice.shopmanagement.charges.ChargesActivity$4
-com/justice/shopmanagement/ui/goods/Hilt_GoodsFragment.java
- com.justice.shopmanagement.ui.goods.Hilt_GoodsFragment
-com/justice/shopmanagement/databinding/FragmentGoodsBinding.java
- com.justice.shopmanagement.databinding.FragmentGoodsBinding
-com/justice/shopmanagement/dao/GoodsDao.java
- com.justice.shopmanagement.dao.GoodsDao
-hilt_aggregated_deps/com_justice_shopmanagement_ui_goods_AddGoodsFragment_GeneratedInjectorModuleDeps.java
- hilt_aggregated_deps.com_justice_shopmanagement_ui_goods_AddGoodsFragment_GeneratedInjectorModuleDeps
-com/justice/shopmanagement/alldata/AllData.java
- com.justice.shopmanagement.alldata.AllData
-com/justice/shopmanagement/dao/GoodsBuyDao.java
- com.justice.shopmanagement.dao.GoodsBuyDao
-com/justice/shopmanagement/ui/MainActivity_GeneratedInjector.java
- com.justice.shopmanagement.ui.MainActivity_GeneratedInjector
-com/justice/shopmanagement/dao/OutOfStockDao.java
- com.justice.shopmanagement.dao.OutOfStockDao
-com/justice/shopmanagement/ui/goods/EditGoodsActivity_GeneratedInjector.java
- com.justice.shopmanagement.ui.goods.EditGoodsActivity_GeneratedInjector
-com/justice/shopmanagement/databinding/ItemGoodsBinding.java
- com.justice.shopmanagement.databinding.ItemGoodsBinding
-com/justice/shopmanagement/alldata/ApplicationClass.java
- com.justice.shopmanagement.alldata.ApplicationClass
-com/justice/shopmanagement/ui/goods/Hilt_AddGoodsFragment.java
- com.justice.shopmanagement.ui.goods.Hilt_AddGoodsFragment
-com/justice/shopmanagement/databinding/ActivityOutOfStockBinding.java
- com.justice.shopmanagement.databinding.ActivityOutOfStockBinding
-com/justice/shopmanagement/databinding/FragmentFirstPageBinding.java
- com.justice.shopmanagement.databinding.FragmentFirstPageBinding
-hilt_aggregated_deps/com_justice_shopmanagement_ui_goods_GoodsFragment_GeneratedInjectorModuleDeps.java
- hilt_aggregated_deps.com_justice_shopmanagement_ui_goods_GoodsFragment_GeneratedInjectorModuleDeps
-com/justice/shopmanagement/databinding/ActivityMainBinding.java
- com.justice.shopmanagement.databinding.ActivityMainBinding
-hilt_aggregated_deps/com_justice_shopmanagement_ui_MainActivity_GeneratedInjectorModuleDeps.java
- hilt_aggregated_deps.com_justice_shopmanagement_ui_MainActivity_GeneratedInjectorModuleDeps
-hilt_aggregated_deps/com_justice_shopmanagement_ui_goods_EditGoodsActivity_GeneratedInjectorModuleDeps.java
- hilt_aggregated_deps.com_justice_shopmanagement_ui_goods_EditGoodsActivity_GeneratedInjectorModuleDeps
-com/justice/shopmanagement/databinding/ItemChargesBinding.java
- com.justice.shopmanagement.databinding.ItemChargesBinding
-com/justice/shopmanagement/ui/Hilt_MainActivity.java
- com.justice.shopmanagement.ui.Hilt_MainActivity
-hilt_aggregated_deps/com_justice_shopmanagement_di_AppModuleModuleDeps.java
- hilt_aggregated_deps.com_justice_shopmanagement_di_AppModuleModuleDeps
-com/justice/shopmanagement/viewmodel/GoodsOutOfStockViewModel.java
- com.justice.shopmanagement.viewmodel.GoodsOutOfStockViewModel
 com/justice/shopmanagement/repository/GoodsBuyRepository.java
  com.justice.shopmanagement.repository.GoodsBuyRepository
  com.justice.shopmanagement.repository.GoodsBuyRepository$1
  com.justice.shopmanagement.repository.GoodsBuyRepository$DeleteAllNotesAsyncTask
  com.justice.shopmanagement.repository.GoodsBuyRepository$DeleteNoteAsyncTask
  com.justice.shopmanagement.repository.GoodsBuyRepository$InsertNoteAsyncTask
-com/justice/shopmanagement/ui/goods/Hilt_EditGoodsActivity.java
- com.justice.shopmanagement.ui.goods.Hilt_EditGoodsActivity
+com/justice/shopmanagement/model/GoodsBuy.java
+ com.justice.shopmanagement.model.GoodsBuy
+com/justice/shopmanagement/ui/Hilt_MainActivity.java
+ com.justice.shopmanagement.ui.Hilt_MainActivity
+hilt_aggregated_deps/com_justice_shopmanagement_di_AppModuleModuleDeps.java
+ hilt_aggregated_deps.com_justice_shopmanagement_di_AppModuleModuleDeps
+com/justice/shopmanagement/model/GoodsOutOfStock.java
+ com.justice.shopmanagement.model.GoodsOutOfStock
+hilt_aggregated_deps/com_justice_shopmanagement_ui_MainActivity_GeneratedInjectorModuleDeps.java
+ hilt_aggregated_deps.com_justice_shopmanagement_ui_MainActivity_GeneratedInjectorModuleDeps
+hilt_aggregated_deps/com_justice_shopmanagement_ui_goods_EditGoodsActivity_GeneratedInjectorModuleDeps.java
+ hilt_aggregated_deps.com_justice_shopmanagement_ui_goods_EditGoodsActivity_GeneratedInjectorModuleDeps
 hilt_aggregated_deps/com_justice_shopmanagement_alldata_ApplicationClass_GeneratedInjectorModuleDeps.java
  hilt_aggregated_deps.com_justice_shopmanagement_alldata_ApplicationClass_GeneratedInjectorModuleDeps
-com/justice/shopmanagement/databinding/SideBarBinding.java
- com.justice.shopmanagement.databinding.SideBarBinding
-com/justice/shopmanagement/repository/GoodsOutOfStockRepository.java
- com.justice.shopmanagement.repository.GoodsOutOfStockRepository
- com.justice.shopmanagement.repository.GoodsOutOfStockRepository$1
- com.justice.shopmanagement.repository.GoodsOutOfStockRepository$DeleteAllNotesAsyncTask
- com.justice.shopmanagement.repository.GoodsOutOfStockRepository$DeleteNoteAsyncTask
- com.justice.shopmanagement.repository.GoodsOutOfStockRepository$InsertNoteAsyncTask
-com/justice/shopmanagement/databinding/ActivityChargesBinding.java
- com.justice.shopmanagement.databinding.ActivityChargesBinding
-com/justice/shopmanagement/user/UserLoginData.java
- com.justice.shopmanagement.user.UserLoginData
 com/justice/shopmanagement/ui/Hilt_FirstPageActivity.java
  com.justice.shopmanagement.ui.Hilt_FirstPageActivity
-hilt_aggregated_deps/com_justice_shopmanagement_ui_FirstPageActivity_GeneratedInjectorModuleDeps.java
- hilt_aggregated_deps.com_justice_shopmanagement_ui_FirstPageActivity_GeneratedInjectorModuleDeps
+com/justice/shopmanagement/database/GoodsDatabase.java
+ com.justice.shopmanagement.database.GoodsDatabase
+ com.justice.shopmanagement.database.GoodsDatabase$1
+ com.justice.shopmanagement.database.GoodsDatabase$PopulateDbAsyncTask
+com/justice/shopmanagement/user/UserLoginData.java
+ com.justice.shopmanagement.user.UserLoginData
 com/justice/shopmanagement/ui/FirstPageActivity_GeneratedInjector.java
  com.justice.shopmanagement.ui.FirstPageActivity_GeneratedInjector
+com/justice/shopmanagement/alldata/ApplicationClass_GeneratedInjector.java
+ com.justice.shopmanagement.alldata.ApplicationClass_GeneratedInjector
+hilt_aggregated_deps/com_justice_shopmanagement_viewmodel_GoodsViewModel_HiltModuleModuleDeps.java
+ hilt_aggregated_deps.com_justice_shopmanagement_viewmodel_GoodsViewModel_HiltModuleModuleDeps
+com/justice/shopmanagement/alldata/ApplicationClass.java
+ com.justice.shopmanagement.alldata.ApplicationClass
+com/justice/shopmanagement/dao/OutOfStockDao.java
+ com.justice.shopmanagement.dao.OutOfStockDao
+com/justice/shopmanagement/dao/GoodsDao.java
+ com.justice.shopmanagement.dao.GoodsDao
+com/justice/shopmanagement/Hilt_HiltTestActivity.java
+ com.justice.shopmanagement.Hilt_HiltTestActivity
+hilt_aggregated_deps/com_justice_shopmanagement_ui_goods_AddGoodsFragment_GeneratedInjectorModuleDeps.java
+ hilt_aggregated_deps.com_justice_shopmanagement_ui_goods_AddGoodsFragment_GeneratedInjectorModuleDeps
+com/justice/shopmanagement/alldata/AllData.java
+ com.justice.shopmanagement.alldata.AllData
+com/justice/shopmanagement/dao/GoodsBuyDao.java
+ com.justice.shopmanagement.dao.GoodsBuyDao
 com/justice/shopmanagement/alldata/ApplicationClass_HiltComponents.java
  com.justice.shopmanagement.alldata.ApplicationClass_HiltComponents
  com.justice.shopmanagement.alldata.ApplicationClass_HiltComponents$ActivityC
@@ -152,8 +96,36 @@ com/justice/shopmanagement/alldata/ApplicationClass_HiltComponents.java
  com.justice.shopmanagement.alldata.ApplicationClass_HiltComponents$ViewWithFragmentC
  com.justice.shopmanagement.alldata.ApplicationClass_HiltComponents$ViewWithFragmentC$Builder
  com.justice.shopmanagement.alldata.ApplicationClass_HiltComponents$ViewWithFragmentCBuilderModule
+com/justice/shopmanagement/ui/goods/EditGoodsActivity_GeneratedInjector.java
+ com.justice.shopmanagement.ui.goods.EditGoodsActivity_GeneratedInjector
+com/justice/shopmanagement/databinding/ItemGoodsBinding.java
+ com.justice.shopmanagement.databinding.ItemGoodsBinding
+com/justice/shopmanagement/charges/ChargesActivityRecyclerAdapter.java
+ com.justice.shopmanagement.charges.ChargesActivityRecyclerAdapter
+ com.justice.shopmanagement.charges.ChargesActivityRecyclerAdapter$1
+ com.justice.shopmanagement.charges.ChargesActivityRecyclerAdapter$2
+ com.justice.shopmanagement.charges.ChargesActivityRecyclerAdapter$ViewHolder
+com/justice/shopmanagement/viewmodel/GoodsViewModel_AssistedFactory_Factory.java
+ com.justice.shopmanagement.viewmodel.GoodsViewModel_AssistedFactory_Factory
+com/justice/shopmanagement/ui/goods/Hilt_AddGoodsFragment.java
+ com.justice.shopmanagement.ui.goods.Hilt_AddGoodsFragment
+com/justice/shopmanagement/alldata/Hilt_ApplicationClass.java
+ com.justice.shopmanagement.alldata.Hilt_ApplicationClass
+ com.justice.shopmanagement.alldata.Hilt_ApplicationClass$1
 com/justice/shopmanagement/di/AppModule_ProvideSharedPreferenceFactory.java
  com.justice.shopmanagement.di.AppModule_ProvideSharedPreferenceFactory
+com/justice/shopmanagement/databinding/FragmentFirstPageBinding.java
+ com.justice.shopmanagement.databinding.FragmentFirstPageBinding
+com/justice/shopmanagement/databinding/FragmentEditGoodsBinding.java
+ com.justice.shopmanagement.databinding.FragmentEditGoodsBinding
+com/justice/shopmanagement/ui/goods/GoodsFragment_GeneratedInjector.java
+ com.justice.shopmanagement.ui.goods.GoodsFragment_GeneratedInjector
+com/justice/shopmanagement/databinding/ActivityMainBinding.java
+ com.justice.shopmanagement.databinding.ActivityMainBinding
+com/justice/shopmanagement/databinding/ItemChargesBinding.java
+ com.justice.shopmanagement.databinding.ItemChargesBinding
+com/justice/shopmanagement/databinding/SidebarChargesBinding.java
+ com.justice.shopmanagement.databinding.SidebarChargesBinding
 com/justice/shopmanagement/alldata/DaggerApplicationClass_HiltComponents_SingletonC.java
  com.justice.shopmanagement.alldata.DaggerApplicationClass_HiltComponents_SingletonC
  com.justice.shopmanagement.alldata.DaggerApplicationClass_HiltComponents_SingletonC$1
@@ -172,11 +144,45 @@ com/justice/shopmanagement/alldata/DaggerApplicationClass_HiltComponents_Singlet
  com.justice.shopmanagement.alldata.DaggerApplicationClass_HiltComponents_SingletonC$ServiceCBuilder
  com.justice.shopmanagement.alldata.DaggerApplicationClass_HiltComponents_SingletonC$ServiceCImpl
  com.justice.shopmanagement.alldata.DaggerApplicationClass_HiltComponents_SingletonC$SwitchingProvider
+com/justice/shopmanagement/out_of_stock/OutOfStockRecyclerAdapter.java
+ com.justice.shopmanagement.out_of_stock.OutOfStockRecyclerAdapter
+ com.justice.shopmanagement.out_of_stock.OutOfStockRecyclerAdapter$1
+ com.justice.shopmanagement.out_of_stock.OutOfStockRecyclerAdapter$2
+ com.justice.shopmanagement.out_of_stock.OutOfStockRecyclerAdapter$ViewHolder
 com/justice/shopmanagement/di/AppModule_ProvideShopRepositoryFactory.java
  com.justice.shopmanagement.di.AppModule_ProvideShopRepositoryFactory
+com/justice/shopmanagement/viewmodel/GoodsViewModel_HiltModule.java
+ com.justice.shopmanagement.viewmodel.GoodsViewModel_HiltModule
 com/justice/shopmanagement/di/AppModule_ProvideRetrofitServiceFactory.java
  com.justice.shopmanagement.di.AppModule_ProvideRetrofitServiceFactory
  com.justice.shopmanagement.di.AppModule_ProvideRetrofitServiceFactory$InstanceHolder
-com/justice/shopmanagement/alldata/Hilt_ApplicationClass.java
- com.justice.shopmanagement.alldata.Hilt_ApplicationClass
- com.justice.shopmanagement.alldata.Hilt_ApplicationClass$1
+com/justice/shopmanagement/ui/goods/Hilt_EditGoodsActivity.java
+ com.justice.shopmanagement.ui.goods.Hilt_EditGoodsActivity
+com/justice/shopmanagement/out_of_stock/OutOfStockActivity.java
+ com.justice.shopmanagement.out_of_stock.OutOfStockActivity
+ com.justice.shopmanagement.out_of_stock.OutOfStockActivity$1
+ com.justice.shopmanagement.out_of_stock.OutOfStockActivity$2
+com/justice/shopmanagement/databinding/SideBarBinding.java
+ com.justice.shopmanagement.databinding.SideBarBinding
+com/justice/shopmanagement/databinding/ActivityChargesBinding.java
+ com.justice.shopmanagement.databinding.ActivityChargesBinding
+com/justice/shopmanagement/viewmodel/GoodsViewModel_AssistedFactory.java
+ com.justice.shopmanagement.viewmodel.GoodsViewModel_AssistedFactory
+com/justice/shopmanagement/databinding/FragmentAddGoodsBinding.java
+ com.justice.shopmanagement.databinding.FragmentAddGoodsBinding
+com/justice/shopmanagement/charges/ChargesActivity.java
+ com.justice.shopmanagement.charges.ChargesActivity
+ com.justice.shopmanagement.charges.ChargesActivity$1
+ com.justice.shopmanagement.charges.ChargesActivity$2
+ com.justice.shopmanagement.charges.ChargesActivity$3
+ com.justice.shopmanagement.charges.ChargesActivity$4
+com/justice/shopmanagement/ui/goods/Hilt_GoodsFragment.java
+ com.justice.shopmanagement.ui.goods.Hilt_GoodsFragment
+com/justice/shopmanagement/databinding/FragmentGoodsBinding.java
+ com.justice.shopmanagement.databinding.FragmentGoodsBinding
+com/justice/shopmanagement/databinding/ItemOutOfStockBinding.java
+ com.justice.shopmanagement.databinding.ItemOutOfStockBinding
+com/justice/shopmanagement/ui/goods/AddGoodsFragment_GeneratedInjector.java
+ com.justice.shopmanagement.ui.goods.AddGoodsFragment_GeneratedInjector
+com/justice/shopmanagement/databinding/ActivityOutOfStockBinding.java
+ com.justice.shopmanagement.databinding.ActivityOutOfStockBinding

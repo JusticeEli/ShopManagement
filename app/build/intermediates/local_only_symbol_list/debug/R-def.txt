@@ -48,6 +48,7 @@ id outOfStockMenu
 id outOfStockTxtView
 id priceEdtTxt
 id priceTxtView
+id progressBar
 id recyclerView
 id removeBtn
 id searchEdtTxt

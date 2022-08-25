@@ -14,22 +14,26 @@ class GoodsViewModel @ViewModelInject constructor(private val repository: ShopRe
     private val TAG = "GoodsViewModel"
 
     val allGoods: MutableLiveData<List<Goods>> = MutableLiveData()
-      
+
     fun insert(goods: Goods?) {
+        try {
+            viewModelScope.launch {
+                Log.d(TAG, "insert: insert in progress...")
 
-        viewModelScope.launch {
-            Log.d(TAG, "insert: insert in progress...")
+                val resp = repository.insert(goods)
+                if (resp.isSuccessful) {
+                    allGoods.value = resp.body()
+                    Log.d(TAG, "insert: resp:${resp.body()}")
 
-               val resp= repository.insert(goods)
-            if (resp.isSuccessful){
-                allGoods.value=resp.body()
-                Log.d(TAG, "insert: resp:${resp.body()}")
-
-            }else{
-                Log.e(TAG, "insert: ${resp.errorBody()}", )
+                } else {
+                    Log.e(TAG, "insert: ${resp.errorBody()}")
+                }
+                Log.d(TAG, "insert: insert finished")
             }
-            Log.d(TAG, "insert: insert finished")
+        } catch (e: Exception) {
+            Log.e(TAG, "insert: ", e)
         }
+
     }
 
     fun update(goods: Goods?) {
@@ -47,5 +51,5 @@ class GoodsViewModel @ViewModelInject constructor(private val repository: ShopRe
         //repository.deleteAllGoods();
     }
 
- 
+
 }

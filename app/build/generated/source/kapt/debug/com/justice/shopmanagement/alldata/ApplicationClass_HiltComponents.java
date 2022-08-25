@@ -1,6 +1,7 @@
 package com.justice.shopmanagement.alldata;
 
 import androidx.hilt.lifecycle.ViewModelFactoryModules;
+import com.justice.shopmanagement.HiltTestActivity_GeneratedInjector;
 import com.justice.shopmanagement.di.AppModule;
 import com.justice.shopmanagement.ui.FirstPageActivity_GeneratedInjector;
 import com.justice.shopmanagement.ui.MainActivity_GeneratedInjector;
@@ -118,7 +119,8 @@ public final class ApplicationClass_HiltComponents {
       }
   )
   @ActivityScoped
-  public abstract static class ActivityC implements MainActivity_GeneratedInjector,
+  public abstract static class ActivityC implements HiltTestActivity_GeneratedInjector,
+      MainActivity_GeneratedInjector,
       ActivityComponent,
       DefaultViewModelFactories.ActivityEntryPoint,
       FragmentComponentManager.FragmentComponentBuilderEntryPoint,
