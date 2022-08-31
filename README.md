@@ -2,7 +2,7 @@
 
 This android app helps in managing records of all goods being sold in a shop.
 
-Currently all the records is stored in the solana blockchain,am using a [Rest Api](https://github.com/JusticeEli/shop-manager-api#readme) to handle all the business logic for writing data to the blockchain using my [Solana Program](https://github.com/JusticeEli/shop-manager#readme)
+Currently all the records is stored in the solana blockchain,am using a [Rest Api](https://github.com/JusticeEli/shop-manager-api#readme) to handle all the business logic.The code for the smart contract can be found here [Solana Program](https://github.com/JusticeEli/shop-manager#readme)
 
 
 
