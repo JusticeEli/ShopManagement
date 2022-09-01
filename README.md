@@ -1,19 +1,19 @@
 # ShopManagement
 
--This  app is built on top of the solana blockchain network,it helps in managing records of all goods being sold in a shop.
+- This  app is built on top of the solana blockchain network,it helps in managing records of all goods being sold in a shop.
 
 
-Currently all the records is stored in the solana blockchain,am using a [Rest Api](https://github.com/JusticeEli/shop-manager-api#readme) to handle all the business logic.The code for the smart contract can be found here [Solana Program](https://github.com/JusticeEli/shop-manager#readme)
+- Currently all the records are stored in the solana blockchain,am using a [Rest Api](https://github.com/JusticeEli/shop-manager-api#readme) to handle all the business logic.The code for the smart contract can be found here [Solana Program](https://github.com/JusticeEli/shop-manager#readme)
 
 
 
 
 
-User can flag a product as being out of stock, it’s also
-convenient for recalculating the total amount of goods a customer has bought.
+- User can flag a product as being out of stock, it’s also convenient for recalculating the total amount of goods a customer has bought.
 
 ## Tech Stack
 - Kotlin
+- Java
 - Dagger Hilt
 - Material Designs
 - Jetpack Components
