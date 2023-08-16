@@ -17,7 +17,7 @@
 - Dagger Hilt (Dependency Injection)
 - Material Designs
 - Jetpack Components (Room library)
-- Coroutines (asynchronous programming
+- Coroutines (asynchronous programming)
 - Retrofit (network programming)
 
 
