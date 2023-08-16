@@ -14,10 +14,11 @@
 ## Tech Stack
 - Kotlin
 - Java
-- Dagger Hilt
+- Dagger Hilt (Dependency Injection)
 - Material Designs
-- Jetpack Components
-- Coroutines
+- Jetpack Components (Room library)
+- Coroutines (asynchronous programming
+- Retrofit (network programming)
 
 
 <img src="https://user-images.githubusercontent.com/63531125/107875434-e1792d00-6ed0-11eb-9024-25755d4760f1.jpeg" width =260/>&emsp;
